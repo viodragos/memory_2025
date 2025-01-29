@@ -1,0 +1,3535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="res_partner_szabo_eva" model="res.partner">
+            <field name="name">Szabo Eva</field>
+            <field name="email">eva.szabo</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_sabou_mariana" model="res.partner">
+            <field name="name">Sabou Mariana</field>
+            <field name="email">mariana.sabou</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_grecu_loredana" model="res.partner">
+            <field name="name">Grecu Loredana</field>
+            <field name="email">loredana.grecu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_grosu_mihaela" model="res.partner">
+            <field name="name">Grosu Mihaela</field>
+            <field name="email">mihaela.grosu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_brejea_anca" model="res.partner">
+            <field name="name">Brejea Anca</field>
+            <field name="email">anca.brejea</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_sandu_alin" model="res.partner">
+            <field name="name">Sandu Alin</field>
+            <field name="email">alin.sandu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_munteanu_ioana" model="res.partner">
+            <field name="name">Munteanu Ioana</field>
+            <field name="email">ioana.munteanu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_suta_bianca" model="res.partner">
+            <field name="name">Suta Bianca</field>
+            <field name="email">bianca.suta</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_marschall_ema_-_zita" model="res.partner">
+            <field name="name">Marschall Ema - Zita</field>
+            <field name="email">ema.popa</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_bobocel_elisabeta" model="res.partner">
+            <field name="name">Bobocel Elisabeta</field>
+            <field name="email">elisabeta.bobocel</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_kacso_albert" model="res.partner">
+            <field name="name">Kacso Albert</field>
+            <field name="email">albert.kacso</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_hritcu_iulian" model="res.partner">
+            <field name="name">Hritcu Iulian</field>
+            <field name="email">iulian.hritcu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_efrim_toni" model="res.partner">
+            <field name="name">Efrim Toni</field>
+            <field name="email">toni.efrim</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_kiss_laszlo" model="res.partner">
+            <field name="name">Kiss Laszlo</field>
+            <field name="email">laszlo.kiss</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_axinte_calin" model="res.partner">
+            <field name="name">Axinte Calin</field>
+            <field name="email">calin.axinte</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_popa_lia" model="res.partner">
+            <field name="name">Popa Lia</field>
+            <field name="email">lia.popa</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_patrascu_aurel" model="res.partner">
+            <field name="name">Patrascu Aurel</field>
+            <field name="email">aurel.patrascu</field>
+            <field name="phone">(123)-456-7890</field>
+            <field name="tz">Europe/Bucharest</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="res_partner_1089" model="res.partner">
+            <field name="name">A&amp;O LOGOS S.R.L.</field>
+            <field name="vat">44347754</field>
+            <field name="ref">J35/2150/2021</field>
+            <field name="street">NR.45, CAMERA 2, SAT REMETEA-LUNCA  MĂNĂŞTIUR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1090" model="res.partner">
+            <field name="name">ABAS S&amp;D PRODCOM SRL</field>
+            <field name="vat">RO 8093129</field>
+            <field name="ref">J20/2274/1994</field>
+            <field name="street">HUNEDOARA, STR. C-TIN BURSAN NR. 14</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1000" model="res.partner">
+            <field name="name">ACTIV UNELT S.R.L.</field>
+            <field name="vat">RO 32163502</field>
+            <field name="ref">J20 /795 /2013</field>
+            <field name="street">STR. PROF.DR. ION CANTACUZINO, NR.14, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1001" model="res.partner">
+            <field name="name">ADELAIDA IMPEX SRL</field>
+            <field name="vat">RO 2290768</field>
+            <field name="ref">J16/29/1992</field>
+            <field name="street">STR. BRESTEI, NR.118, Craiova</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1091" model="res.partner">
+            <field name="name">ADINA &amp; DOCHIA S.R.L.</field>
+            <field name="vat">44479330</field>
+            <field name="ref">J35/2544/2021</field>
+            <field name="street">NR.72, SAT SUDRIAŞ  TRAIAN VUIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1002" model="res.partner">
+            <field name="name">ADIVA IMPEX SRL</field>
+            <field name="vat">RO 8273847</field>
+            <field name="ref">J02/198/1996</field>
+            <field name="street">STR. ANDREI ŞAGUNA, NR.114, ARAD</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1093" model="res.partner">
+            <field name="name">ADMINISTRATIA PATRIMONIULUI PROTOCOLULUI DE STAT RA</field>
+            <field name="vat">RO 2351555</field>
+            <field name="ref">J40/234/1991</field>
+            <field name="street">STR. MOLIERE, NR.6-8, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1094" model="res.partner">
+            <field name="name">AEM SA</field>
+            <field name="vat">RO 22362524</field>
+            <field name="ref">J35/3279/2007</field>
+            <field name="street">PŢA. G-RAL. GHEORGHE DOMĂŞNEAN, NR.5, MUN. TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1095" model="res.partner">
+            <field name="name">AGAT PRODEX SRL</field>
+            <field name="vat">RO 4945686</field>
+            <field name="ref">J20/1844/1993</field>
+            <field name="street">Str. 1 Decembrie 1918  10          -  Hunedoara, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1096" model="res.partner">
+            <field name="name">AGENTIA PENTRU DEZVOLTARE REGIONALA A REGIUNII VEST</field>
+            <field name="vat">11354496</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. LAZĂR GHEORGHE, NR.14, TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1003" model="res.partner">
+            <field name="name">AGIS COMPUTER S.R.L.</field>
+            <field name="vat">RO 6528510</field>
+            <field name="ref">J12/3679/1994</field>
+            <field name="street">STR. AUGUST TREBONIU LAURIAN, NR.1, CLUJ-NAPOCA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1097" model="res.partner">
+            <field name="name">AGROPEC DIONIS SRL</field>
+            <field name="vat">RO 26130560</field>
+            <field name="ref">J01/702/2009</field>
+            <field name="street">STR. GAZULUI, NR.FN, SAT CETATEA DE BALTA  CETATEA DE BALTA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1004" model="res.partner">
+            <field name="name">ALAMOS SELECT SRL</field>
+            <field name="vat">RO 10852395</field>
+            <field name="ref">J20/581/1998</field>
+            <field name="street">STR. PICTOR NICOLAE GRIGORESCU, NR.7, AP.1, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1005" model="res.partner">
+            <field name="name">ALEF DISTRIBUTION RO S.A.</field>
+            <field name="vat">RO 37561959</field>
+            <field name="ref">J40/6882/2017</field>
+            <field name="street">B-DUL DIMITRIE POMPEIU, NR.6E, ET.8, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1099" model="res.partner">
+            <field name="name">ALEXANDRU BOGDAN</field>
+            <field name="vat"></field>
+            <field name="ref">-</field>
+            <field name="street">Cugir</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1006" model="res.partner">
+            <field name="name">ALISEB DISTRIBUTION SRL</field>
+            <field name="vat">RO 25373404</field>
+            <field name="ref">J20/408/2009</field>
+            <field name="street">STR. CORBULUI, NR.10, Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1100" model="res.partner">
+            <field name="name">ALMA PRINT SRL</field>
+            <field name="vat">RO 13692167</field>
+            <field name="ref">J20/85/2001</field>
+            <field name="street">STR. MINEI, NR.42, SAT TELIUCU INFERIOR COM. TELIUCU INFERIOR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1007" model="res.partner">
+            <field name="name">ALSO TECHNOLOGY ROMANIA S.R.L.</field>
+            <field name="vat">RO 32429907</field>
+            <field name="ref">J40/13612/2013</field>
+            <field name="street">ŞOS. BUCUREŞTI-PLOIEŞTI, NR.73-81, VICTORIA BUSINESS PARK , CLADIREA NR.4, BIROUL NR.21, COD POSTAL 013685, ET.4, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1008" model="res.partner">
+            <field name="name">ALT ALECO GROUP SRL</field>
+            <field name="vat">RO 18701703</field>
+            <field name="ref">J40/8445/2006</field>
+            <field name="street">STR. CĂTINEI, NR.14, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1009" model="res.partner">
+            <field name="name">ALTEX ROMANIA SRL</field>
+            <field name="vat">RO 2864518</field>
+            <field name="ref">J23/2611/2016</field>
+            <field name="street">ŞOS. BUCUREŞTI NORD, NR.10, CLADIREA GLOBAL CITY BUSINESS PARK, CORPUL O11, ET.9+10, VOLUNTARI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1102" model="res.partner">
+            <field name="name">AMA GLOBAL FOOTBALL SPORT SRL</field>
+            <field name="vat">RO 35197577</field>
+            <field name="ref">J29/1590/2015</field>
+            <field name="street">STR. OCTAVIAN GOGA, NR.9-11, -VILA CARPATI-, ET.5, AP.16, ORŞ. SINAIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1103" model="res.partner">
+            <field name="name">AMERITECH SA</field>
+            <field name="vat">RO 15260416</field>
+            <field name="ref">J20/231/2003</field>
+            <field name="street">CAR. PEŞTIŞUL MARE, NR.363, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1010" model="res.partner">
+            <field name="name">ANDREX NET SRL</field>
+            <field name="vat">RO 18861518</field>
+            <field name="ref">J03 /1211 /2006</field>
+            <field name="street">Str. FUNDATURA MICSUNELE 11 - Uiasca, Uiasca</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1104" model="res.partner">
+            <field name="name">ANDUNA SERVIMOB SRL</field>
+            <field name="vat">RO 9666682</field>
+            <field name="ref">J40/6053/1997</field>
+            <field name="street">Chitila, Sat Rudeni, Strada Panduri,Nr. 137</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1011" model="res.partner">
+            <field name="name">ANTECH SIM GROUP SRL</field>
+            <field name="vat">RO 38511983</field>
+            <field name="ref">J40/19442/2017</field>
+            <field name="street">STR. VASILE LASCĂR, NR.159B, Sector 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1012" model="res.partner">
+            <field name="name">ANTENA DIGITAL SAT S.R.L.</field>
+            <field name="vat">RO 40249427</field>
+            <field name="ref">J31/1089/2018</field>
+            <field name="street">STR. CORNELIU COPOSU, NR.54, CAMERA 3, AP.1, Zalău</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1105" model="res.partner">
+            <field name="name">APLISENS SRL</field>
+            <field name="vat">RO 33350720</field>
+            <field name="ref">J22/1072/2014</field>
+            <field name="street">ŞOS. PĂCURARI, NR.130D, IAŞI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1013" model="res.partner">
+            <field name="name">ARC BRASOV SRL</field>
+            <field name="vat">RO 1112975</field>
+            <field name="ref">J08/429/1991</field>
+            <field name="street">Str. FÂNTÂNII  17          -  Braşov, Brașov</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1106" model="res.partner">
+            <field name="name">ARCELORMITTAL HUNEDOARA SA</field>
+            <field name="vat">RO 2126855</field>
+            <field name="ref">J20/41/1991</field>
+            <field name="street">STR. SOSEAUA HUNEDOARA-SANTUHALM, NR.4, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1107" model="res.partner">
+            <field name="name">ARDEALUL STAR CONSTRUCT SRL</field>
+            <field name="vat">RO 32213317</field>
+            <field name="ref">J01/566/2013</field>
+            <field name="street">BLD. REPUBLICII, NR.21, Mun. Alba Iulia</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1108" model="res.partner">
+            <field name="name">AS COMPUTER CRAIOVA SRL</field>
+            <field name="vat">RO 6779113</field>
+            <field name="ref">J16/3972/1994</field>
+            <field name="street">CAL. BUCUREŞTI, BL.A5, SC.2, AP.1, Craiova</field>
+            <field name="city">Craiova</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1109" model="res.partner">
+            <field name="name">AS DISTRIBUTION S.R.L.</field>
+            <field name="vat">RO 15218675</field>
+            <field name="ref">J16/224/2003</field>
+            <field name="street">STR. CARACAL, CART. EROILOR, NR.79, Mun. Craiova</field>
+            <field name="city">Mun. Craiova</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1110" model="res.partner">
+            <field name="name">ASOCIATIA "PENTRU HUNEDOARA NOASTRA "</field>
+            <field name="vat">32843371</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. 1 DECEMBRIE 1918, NR.8, AP.2, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1111" model="res.partner">
+            <field name="name">ASOCIATIA CENTRUL REGIONAL PENTRU OCUPAREA FORTEI DE MUNCA SI PROTECTIE SOCIALA</field>
+            <field name="vat">RO 27456867</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">PETROSANI, STR. 22 DECEMBRIE Nr. 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1112" model="res.partner">
+            <field name="name">ASOCIATIA DE PROPRIETARI UNIVERS 33 &amp; 34</field>
+            <field name="vat">25843670</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. MIORIŢEI, NR.1, BL.34, SC.B, ET.P, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1113" model="res.partner">
+            <field name="name">ASOCIATIA ZARAND</field>
+            <field name="vat">28253780</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. MIHAI VITEAZUL, NR.44, BL.63, SC.E, ET.4, AP.10, MUN. BRAŞOV</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1114" model="res.partner">
+            <field name="name">ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.</field>
+            <field name="vat">RO 17857020</field>
+            <field name="ref">J20/1295/2005</field>
+            <field name="street">CAR. PEŞTIŞUL MARE, NR.363, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1014" model="res.partner">
+            <field name="name">ASTROMAGAZIN SRL</field>
+            <field name="vat">RO 26844542</field>
+            <field name="ref">J06/169/2010</field>
+            <field name="street">, NR.44T, Sat Crainimăt Com. Şieu-Măgheruş</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1115" model="res.partner">
+            <field name="name">ATITUD PRO CONSTRUCT SRL</field>
+            <field name="vat">20900759</field>
+            <field name="ref">J20/178/2007</field>
+            <field name="street">STR. GHEORGHE DOJA, NR.3, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1015" model="res.partner">
+            <field name="name">ATU TECH SRL</field>
+            <field name="vat">RO 29104875</field>
+            <field name="ref">J32/880/2011</field>
+            <field name="street">STR. FABRICII, NR.2, BL.9, AP.14, Sibiu</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1016" model="res.partner">
+            <field name="name">AUCHAN ROMÂNIA SA</field>
+            <field name="vat">RO 17233051</field>
+            <field name="ref">J40/2731/2005</field>
+            <field name="street">STR. BRAŞOV, NR.25, ET.4, AP.CAMERA 1, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1117" model="res.partner">
+            <field name="name">AUTO MARKET CORVIN S.R.L.</field>
+            <field name="vat">RO 32899526</field>
+            <field name="ref">J20/221/2014</field>
+            <field name="street">BLD. DACIA, NR.1A, BUITUR, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1118" model="res.partner">
+            <field name="name">AUTOHAUS HUBER S.R.L.</field>
+            <field name="vat">RO 13555836</field>
+            <field name="ref">J32/570/2000</field>
+            <field name="street">CAL. ŞURII MARI, NR.20, MUN. SIBIU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1119" model="res.partner">
+            <field name="name">AUTOHAUS HUBER S.R.L. SIBIU SUCURSALA DEVA</field>
+            <field name="vat">22560530</field>
+            <field name="ref">J20/1495/2007</field>
+            <field name="street">STR. SÂNTUHALM, NR.1A, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1017" model="res.partner">
+            <field name="name">AUTOMOTIF EXPERT S.R.L.</field>
+            <field name="vat">RO 48834124</field>
+            <field name="ref">J12/4022/2023</field>
+            <field name="street">STR. PAVEL ROŞCA, NR.4, AP.28, Mun. Cluj-Napoca</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1120" model="res.partner">
+            <field name="name">AVIS 3000 SA</field>
+            <field name="vat">RO 13682627</field>
+            <field name="ref">J20/80/2001</field>
+            <field name="street">STR. LUCIAN BLAGA, NR.2, SAT MINTIA COM. VEŢEL</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1018" model="res.partner">
+            <field name="name">AXEL SOFT IT GROUP SRL</field>
+            <field name="vat">RO 14594957</field>
+            <field name="ref">J23/715/2002</field>
+            <field name="street">STR. VALEA PARCULUI, NR.20, MOGOŞOAIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1121" model="res.partner">
+            <field name="name">BASARAB GHEORGHE VASILE  -  MEDIC CARDIOLOG</field>
+            <field name="vat">41441420</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. TOAMNEI, NR.8, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1122" model="res.partner">
+            <field name="name">BENZAR ANDRADA-OANA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44252980</field>
+            <field name="ref">F35/759/2021</field>
+            <field name="street">NR.15, CAMERA 1, SAT VICTOR VLAD DELAMARINA  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1019" model="res.partner">
+            <field name="name">BIA SI COM SRL</field>
+            <field name="vat">RO 5412428</field>
+            <field name="ref">J06/165/1994</field>
+            <field name="street">STR. VIILOR, NR.10, Bistriţa</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1123" model="res.partner">
+            <field name="name">BILICI CĂTĂLINA-AURELIA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44290461</field>
+            <field name="ref">F35/811/2021</field>
+            <field name="street">NR.106, SAT SĂRĂZANI  BÂRNA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1124" model="res.partner">
+            <field name="name">BIROU EXPERT CONTABIL GIURGIU ELENA</field>
+            <field name="vat">24016640</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. GEORGE ENESCU, NR.2, BL.2, SC.A, ET.1, AP.6, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1125" model="res.partner">
+            <field name="name">BIROU EXPERT CONTABIL ZANELA GEORGETA</field>
+            <field name="vat">30928692</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">STR. MIHAI EMINESCU, NR.4, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1126" model="res.partner">
+            <field name="name">BIROU NOTAR PUBLIC BAIESAN GABRIELA</field>
+            <field name="vat">RO 21037827</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">HUNEDOARA, STR. AUREL VLAICU Nr. 53 A</field>
+            <field name="city">STR. AUREL VLAICU Nr. 53 A</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1127" model="res.partner">
+            <field name="name">BIROU NOTAR PUBLIC RUSU CONSTANTIN</field>
+            <field name="vat">RO 21175617</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">HUNEDOARA, STR. GEORGE ENESCU Nr. 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1128" model="res.partner">
+            <field name="name">BIROU PARLAMENTAR KELEMEN ATTILA</field>
+            <field name="vat">-</field>
+            <field name="ref">Legitimatie nr.154</field>
+            <field name="street">Resita, str.Mihai Viteazu nr.16</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1129" model="res.partner">
+            <field name="name">BISERICA REFORMATA PESTISUL MARE</field>
+            <field name="vat">7812480</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">CAR. PEŞTIŞUL MARE, NR.338, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1130" model="res.partner">
+            <field name="name">BIVARIA GRUP SRL</field>
+            <field name="vat">RO 13833576</field>
+            <field name="ref">J20/327/2001</field>
+            <field name="street">STR. EROILOR, NR.2D, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1020" model="res.partner">
+            <field name="name">BNT SISTEM SRL</field>
+            <field name="vat">RO 12745140</field>
+            <field name="ref">J12/232/2000</field>
+            <field name="street">STR. TRAIAN VUIA, NR.124 A, CLUJ-NAPOCA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1131" model="res.partner">
+            <field name="name">BOGDAN GARDEN DESIGN S.R.L.</field>
+            <field name="vat">44391032</field>
+            <field name="ref">J35/2244/2021</field>
+            <field name="street">STR. AUREL COZMA, NR.75, SAT MOŞNIŢA VECHE  MOŞNIŢA NOUĂ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1132" model="res.partner">
+            <field name="name">BOMBESCU ADRIAN-ALIN ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44314242</field>
+            <field name="ref">F35/843/2021</field>
+            <field name="street">NR.10, SAT BOTINEŞTI  BÂRNA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1133" model="res.partner">
+            <field name="name">BOTIZAN DANIEL-IONUŢ ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44219631</field>
+            <field name="ref">F35/687/2021</field>
+            <field name="street">NR.166A, SAT HONORICI  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1134" model="res.partner">
+            <field name="name">BOTOS PRODIMPEX SRL</field>
+            <field name="vat">RO 16027452</field>
+            <field name="ref">J20/8/2004</field>
+            <field name="street">STR. HERŢEŞTI, NR.24, Brad</field>
+            <field name="city">Brad</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1135" model="res.partner">
+            <field name="name">BOTOŞ CORPORATION S.R.L.</field>
+            <field name="vat">RO 42688747</field>
+            <field name="ref">J20/603/2020</field>
+            <field name="street">STR. HERŢEŞTI, NR.24, Mun. Brad</field>
+            <field name="city">Mun. Brad</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1021" model="res.partner">
+            <field name="name">BRICOSTORE ROMANIA SA</field>
+            <field name="vat">RO 14328360</field>
+            <field name="ref">J40/9990/2001</field>
+            <field name="street">CALEA GIULESTI -CENTRUL COM. BRICOSTORE-, NR.1-3, ET.2, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1136" model="res.partner">
+            <field name="name">BRIKSTON CONSTRUCTION SOLUTIONS S.A.</field>
+            <field name="vat">RO 1989343</field>
+            <field name="ref">J22/533/1991</field>
+            <field name="street">CAL. CHIŞINĂULUI, NR.176, IAŞI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1137" model="res.partner">
+            <field name="name">BUD BIANCA-DANIELA - BIROU INDIVIDUAL NOTARIAL</field>
+            <field name="vat">RO 46755709</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">STR. AVRAM IANCU, BL.3, SC.1, ET.P, AP.6, Mun. Petroşani</field>
+            <field name="city">Petrosani</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1022" model="res.partner">
+            <field name="name">BURHIL SRL</field>
+            <field name="vat">RO 792652</field>
+            <field name="ref">J32/526/1992</field>
+            <field name="street">STR. ORHIDEELOR, NR.14, SIBIU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1138" model="res.partner">
+            <field name="name">CABINET DE AVOCAT - SILVĂŞAN  MARIA-CRINELA ; BIROU DE MEDIATOR - SILVĂŞAN MARIA-CRINELA</field>
+            <field name="vat">21815473</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. REVOLUŢIEI, NR.4, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1139" model="res.partner">
+            <field name="name">CABINET DE AVOCAT VASILE GABRIELA VICTORIA</field>
+            <field name="vat">20973262</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">HUNEDOARA, STR. GEORGE ENESCU 16 cod postal : 331056</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1140" model="res.partner">
+            <field name="name">CADELPLAST GROUP S.R.L.</field>
+            <field name="vat">RO 18012172</field>
+            <field name="ref">J20/1541/2005</field>
+            <field name="street">STR. CARPAŢI, NR.51-55, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1141" model="res.partner">
+            <field name="name">CALIROM SRL</field>
+            <field name="vat">RO 15899917</field>
+            <field name="ref">J12/3173/2003</field>
+            <field name="street">STR. TUDOR VLADIMIRESCU, NR.53A, CÂMPIA TURZII</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1142" model="res.partner">
+            <field name="name">CAMBRIDGE SPECIAL S.R.L.</field>
+            <field name="vat">31728137</field>
+            <field name="ref">J20/524/2013</field>
+            <field name="street">STR. ZĂVOI, NR.11, AP.3, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1023" model="res.partner">
+            <field name="name">CARDEX ROM SRL</field>
+            <field name="vat">RO 9020354</field>
+            <field name="ref">J08/1564/1996</field>
+            <field name="street">STR. GRIGORE URECHE, NR.14, Mun. Braşov</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1143" model="res.partner">
+            <field name="name">CARMEUSE HOLDING S.R.L.</field>
+            <field name="vat">RO 15379680</field>
+            <field name="ref">J08/2938/2004</field>
+            <field name="street">STR. CARIEREI, NR.127 A, MUN. BRAŞOV</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1144" model="res.partner">
+            <field name="name">CASIDO S.R.L.</field>
+            <field name="vat">RO 4183377</field>
+            <field name="ref">J09/659/2009</field>
+            <field name="street">STR. GOLEŞTI, NR.21, MUN. BRĂILA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1145" model="res.partner">
+            <field name="name">CASTECO INVEST SRL</field>
+            <field name="vat">RO 6279401</field>
+            <field name="ref">J20/1409/1994</field>
+            <field name="street">STR. MUREŞULUI, NR.18, Mun. Deva</field>
+            <field name="city">Mun. Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1146" model="res.partner">
+            <field name="name">CENTRUL DE TRANSFUZIE SANGUINĂ HUNEDOARA</field>
+            <field name="vat">4374504</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">BLD. 22 DECEMBRIE, BL.D1, AP.P, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1147" model="res.partner">
+            <field name="name">CERURIM S.R.L.</field>
+            <field name="vat">RO 31982983</field>
+            <field name="ref">J20/638/2013</field>
+            <field name="street">STR. SÂNTUHALM, NR.35A, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1148" model="res.partner">
+            <field name="name">CG &amp; GC HITECH SOLUTIONS SRL</field>
+            <field name="vat">RO 27188870</field>
+            <field name="ref">J05/939/2010</field>
+            <field name="street">STR. GHEORGHE DOJA, NR.8, AP.1, ORADEA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1149" model="res.partner">
+            <field name="name">CHIMICA SA</field>
+            <field name="vat">RO 2148292</field>
+            <field name="ref">J20/134/1991</field>
+            <field name="street">STR. CODRULUI, NR.24, ORĂŞTIE</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1150" model="res.partner">
+            <field name="name">CIMPONERIU CARMEN-AURICA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44258193</field>
+            <field name="ref">F35/765/2021</field>
+            <field name="street">STR. LAZĂR GHEORGHE, NR.22A, LUGOJ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1152" model="res.partner">
+            <field name="name">COFICAB EASTERN EUROPE S.R.L.</field>
+            <field name="vat">RO 16876750</field>
+            <field name="ref">J02/1625/2005</field>
+            <field name="street">STR. III - ZONA INDUSTRIALA VEST, NR.2, Arad</field>
+            <field name="city">Arad</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1153" model="res.partner">
+            <field name="name">COLEGIUL ECONOMIC EMANUIL GOJDU</field>
+            <field name="vat">4634094</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">HUNEDOARA, ALEXANDRU VLAHUTA Nr. 1 BIS</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1154" model="res.partner">
+            <field name="name">COLEGIUL NATIONAL DE INFORMATICA CARMEN SYLVA</field>
+            <field name="vat">27336550</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">PETROSANI, STR. SLATINIOARA Nr. 10</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1155" model="res.partner">
+            <field name="name">COLEGIUL NAŢIONAL PEDAGOGIC "REGINA MARIA"</field>
+            <field name="vat">4374652</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">STR. GHEORGHE BARIŢIU, NR.2, Mun. Deva</field>
+            <field name="city">Mun. Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1156" model="res.partner">
+            <field name="name">COMPAS STUDIO SRL</field>
+            <field name="vat">RO 22532211</field>
+            <field name="ref">J33/1525/2007</field>
+            <field name="street">STR. MARGARETA MUŞATA, NR.1 B, ET.2, AP.11, Orş. Siret</field>
+            <field name="city">Orş. Siret</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1024" model="res.partner">
+            <field name="name">COMSAT ELECTRONIC S.R.L.</field>
+            <field name="vat">RO 15159790</field>
+            <field name="ref">J01/54/2003</field>
+            <field name="street">STR. ARNSBERG, BL.A6, SC.B, AP.23, Alba Iulia</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1157" model="res.partner">
+            <field name="name">COMUNA BRETEA ROMANA</field>
+            <field name="vat">4521443</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">NR.15, SAT BRETEA ROMÂNĂ COM. BRETEA ROMÂNĂ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1158" model="res.partner">
+            <field name="name">COMUNA DENSUS</field>
+            <field name="vat">5453789</field>
+            <field name="ref">-</field>
+            <field name="street">Densus 154 - Densus, Densuș</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1159" model="res.partner">
+            <field name="name">COMUNA GHELARI</field>
+            <field name="vat">4373991</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. RUSCA, NR.5, Sat Ghelari Com. Ghelari</field>
+            <field name="city">Sat Ghelari Com. Ghelari</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1160" model="res.partner">
+            <field name="name">COMUNA RAU DE MORI</field>
+            <field name="vat">4633285</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">NR.1, SAT RÂU DE MORI  RÂU DE MORI</field>
+            <field name="city">SAT RAU DE MORI  RAU DE MORI</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1161" model="res.partner">
+            <field name="name">COMUNA SELIMBAR</field>
+            <field name="vat">4406045</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">ȘELIMBĂR, MIHAI VITEAZU 234 cod postal : 557260</field>
+            <field name="city">MIHAI VITEAZU 234 cod postal : 557260</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1162" model="res.partner">
+            <field name="name">CONETA SRL</field>
+            <field name="vat">RO 12881540</field>
+            <field name="ref">J20/196/2000</field>
+            <field name="street">STR. LIBERTĂŢII, NR.15, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1163" model="res.partner">
+            <field name="name">CORAL SRL</field>
+            <field name="vat">RO 2362708</field>
+            <field name="ref">J36/602/1991</field>
+            <field name="street">STR. BABADAG, NR.159, CAMERA 1, BLOC CORAL MALL, ET.3, Tulcea</field>
+            <field name="city">Tulcea</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1164" model="res.partner">
+            <field name="name">COST ANALYSIS S.R.L.</field>
+            <field name="vat">24442085</field>
+            <field name="ref">J20/1406/2008</field>
+            <field name="street">BLD. DACIA, NR.35, BL.20A, SC.E, AP.70, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1025" model="res.partner">
+            <field name="name">CURTEA VECHE TRADING SRL</field>
+            <field name="vat">RO 6310647</field>
+            <field name="ref">J40/18986/1994</field>
+            <field name="street">STR. ECHINOCŢIULUI, NR.57, SECTOR 5</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1151" model="res.partner">
+            <field name="name">Clubul Sportiv Hunedoara</field>
+            <field name="vat">-</field>
+            <field name="ref">-</field>
+            <field name="street">Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1026" model="res.partner">
+            <field name="name">DANTE INTERNATIONAL SA</field>
+            <field name="vat">RO 14399840</field>
+            <field name="ref">J40/372/2002</field>
+            <field name="street">ŞOS. BUCUREŞTI NORD, NR.15-23, BL.PARC DE BIROURI SWAN, CLADIREA A, ET.4, 5 SUBS, VOLUNTARI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1167" model="res.partner">
+            <field name="name">DAR DRAXLMAIER AUTOMOTIVE SRL</field>
+            <field name="vat">RO 26573648</field>
+            <field name="ref">J35/318/2010</field>
+            <field name="street">CAL. STAN VIDRIGHIN, NR.9A, HALA 1, TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1168" model="res.partner">
+            <field name="name">DASILANDRA PLUS S.R.L.</field>
+            <field name="vat">RO 39520629</field>
+            <field name="ref">J20/788/2018</field>
+            <field name="street">STR. LAMINATORULUI, NR.3, BL.20, SC.A, ET.4, AP.10, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1169" model="res.partner">
+            <field name="name">DAVAMAL COMSERVICE SRL</field>
+            <field name="vat">RO 2126090</field>
+            <field name="ref">J20/1128/1992</field>
+            <field name="street">STR. LIBERTĂŢII, NR.14, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1027" model="res.partner">
+            <field name="name">DEDEMAN SRL</field>
+            <field name="vat">RO 2816464</field>
+            <field name="ref">J04/2621/1992</field>
+            <field name="street">STR. ALEXEI TOLSTOI, NR.8, BACĂU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1028" model="res.partner">
+            <field name="name">DESPEC INTERNATIONAL S.A.</field>
+            <field name="vat">RO 2111889</field>
+            <field name="ref">J23/2166/2016</field>
+            <field name="street">ŞOS. BUCUREŞTI NORD, NR.10, GLOBAL CITY BUSINESS PARK, CORP 011, SALA MEETING 2, ET.10, VOLUNTARI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1170" model="res.partner">
+            <field name="name">DEVA STEEL CORPORATION   S.R.L.</field>
+            <field name="vat">RO 35819580</field>
+            <field name="ref">J20/340/2016</field>
+            <field name="street">PŢA. IANCU DE HUNEDOARA, NR.1, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1171" model="res.partner">
+            <field name="name">DHS BIKE PARTS SRL</field>
+            <field name="vat">RO 24705416</field>
+            <field name="ref">J20/1709/2008</field>
+            <field name="street">STR. SÂNTUHALM, NR.35A, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1172" model="res.partner">
+            <field name="name">DHSBABY S.R.L.</field>
+            <field name="vat">RO 34253482</field>
+            <field name="ref">J20/229/2015</field>
+            <field name="street">STR. SÂNTUHALM, NR.35A, CORP A, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1173" model="res.partner">
+            <field name="name">DOBRA COM IMPEX SRL</field>
+            <field name="vat">RO 4945848</field>
+            <field name="ref">J20/1894/1993</field>
+            <field name="street">BLD. DACIA, NR.8, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1174" model="res.partner">
+            <field name="name">DOBREAN VALENTIN-NICOLAE ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44249772</field>
+            <field name="ref">F35/744/2021</field>
+            <field name="street">NR.94, CAMERA 1, SAT BUCOVĂŢ  DUMBRAVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1029" model="res.partner">
+            <field name="name">DRAGUSANU SRL</field>
+            <field name="vat">RO 23587193</field>
+            <field name="ref">J20/550/2008</field>
+            <field name="street">BLD. LIBERTĂŢII, NR.5, BL.12, ET.PARTER, Mun. Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1175" model="res.partner">
+            <field name="name">DUBĂ CIPRIAN-IOAN ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44140545</field>
+            <field name="ref">F35/570/2021</field>
+            <field name="street">NR.77, SAT VICTOR VLAD DELAMARINA  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1165" model="res.partner">
+            <field name="name">Danci Ionel</field>
+            <field name="vat"></field>
+            <field name="ref">-</field>
+            <field name="street">Deva,Barcea Mica , Str.Campului nr.7</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1176" model="res.partner">
+            <field name="name">ECOPLAST HART SRL</field>
+            <field name="vat">RO 17059959</field>
+            <field name="ref">J20/1943/2004</field>
+            <field name="street">BLD. DACIA, NR.2, BL.E5, ET.P, AP.1, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1177" model="res.partner">
+            <field name="name">EDOROM METAL SRL</field>
+            <field name="vat">RO 16073980</field>
+            <field name="ref">J20/98/2004</field>
+            <field name="street">STR. CALEA ROMANILOR, NR.28, Sat Geoagiu Orş. Geoagiu</field>
+            <field name="city">Sat Geoagiu Orş. Geoagiu</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1030" model="res.partner">
+            <field name="name">ELECTRIC L.T. SRL</field>
+            <field name="vat">RO 14576764</field>
+            <field name="ref">J35/547/2002</field>
+            <field name="street">CAL. STAN VIDRIGHIN, NR.12, Timişoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1178" model="res.partner">
+            <field name="name">ELECTRIC STANDARD PREST SRL</field>
+            <field name="vat">RO 9178894</field>
+            <field name="ref">J20 /89 /1997</field>
+            <field name="street">STR. LIBERTĂŢII, NR.39, SIMERIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1179" model="res.partner">
+            <field name="name">ELECTROPRECIZIA A.G. SRL</field>
+            <field name="vat">RO 25609735</field>
+            <field name="ref">J08/839/2009</field>
+            <field name="street">STR. CALEA BUCUREŞTI, NR.6, SĂCELE</field>
+            <field name="city">SACELE</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1031" model="res.partner">
+            <field name="name">ELTEK MULTIMEDIA S.R.L.</field>
+            <field name="vat">RO 21340382</field>
+            <field name="ref">J23/2369/2009</field>
+            <field name="street">BLD. PIPERA, NR.1B, CLĂDIREA DE BIROURI CUBIC CENTER, BIROURILE 23 ȘI 24, ET.7, VOLUNTARI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1181" model="res.partner">
+            <field name="name">EPISCOPIA ORTODOXA ROMANA A DEVEI SI HUNEDOAREI</field>
+            <field name="vat">26210065</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. ANDREI ŞAGUNA, NR.1, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1182" model="res.partner">
+            <field name="name">EUGMAR BUSINESS SOLUTION S.R.L.</field>
+            <field name="vat">40779776</field>
+            <field name="ref">J35/1344/2019</field>
+            <field name="street">STR. NICOLAE BĂLCESCU, NR.9, SPAŢIUL A4, MUN. LUGOJ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1183" model="res.partner">
+            <field name="name">EURO EXPERT SRL</field>
+            <field name="vat">RO 17114310</field>
+            <field name="ref">J20/49/2005</field>
+            <field name="street">STR. CUZA VODĂ, BL.D4B, AP.1, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1184" model="res.partner">
+            <field name="name">EUROSPORT DHS SA</field>
+            <field name="vat">RO 17012620</field>
+            <field name="ref">J20/1861/2004</field>
+            <field name="street">STR. SÂNTUHALM, NR.35A, MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1185" model="res.partner">
+            <field name="name">EVALCONS CONSULTING SRL</field>
+            <field name="vat">RO 15481611</field>
+            <field name="ref">J20/597/2003</field>
+            <field name="street">STR. MUNTENIEI, NR.5, AP.27, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1032" model="res.partner">
+            <field name="name">EXPERT COMPANY GROUP S.R.L.</field>
+            <field name="vat">RO 18104390</field>
+            <field name="ref">J26/1918/2005</field>
+            <field name="street">UNGHENI, -ZONA PLATFORMA 1 C302-, SAT UNGHENI  UNGHENI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1186" model="res.partner">
+            <field name="name">FAIRVALUE CONSULTING SRL</field>
+            <field name="vat">RO 17254259</field>
+            <field name="ref">J40/3144/2005</field>
+            <field name="street">STR. SFANTUL SPIRIDON, NR.7, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1187" model="res.partner">
+            <field name="name">FARCAŞ ANDREEA-ELENA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44662484</field>
+            <field name="ref">F35/1247/2021</field>
+            <field name="street">NR.81, SAT SĂCENI  TRAIAN VUIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1188" model="res.partner">
+            <field name="name">FARES TRADING SRL</field>
+            <field name="vat">RO 12515795</field>
+            <field name="ref">J20/871/1999</field>
+            <field name="street">STR. PLANTELOR, NR.50, ORĂŞTIE</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1189" model="res.partner">
+            <field name="name">FARMACIA ALFA COM SRL</field>
+            <field name="vat">RO 2127036</field>
+            <field name="ref">J20/1849/1992</field>
+            <field name="street">BLD. DACIA, NR.6A1, Mun. Hunedoara</field>
+            <field name="city">Mun. Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1033" model="res.partner">
+            <field name="name">FBD SUPPLY SOLUTIONS S.R.L.</field>
+            <field name="vat">RO 37835680</field>
+            <field name="ref">J12/4100/2017</field>
+            <field name="street">CAL. BACIULUI, NR.179 B, CLUJ-NAPOCA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1034" model="res.partner">
+            <field name="name">FELIN SRL</field>
+            <field name="vat">RO 1351190</field>
+            <field name="ref">J29/2256/1991</field>
+            <field name="street">Str. ROMANA-BOLDESCU  118          -  Ploieşti, Ploiești</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1190" model="res.partner">
+            <field name="name">FERM EXPERT CONTAB SRL</field>
+            <field name="vat">19084657</field>
+            <field name="ref">J20/1425/2006</field>
+            <field name="street">STR. TRANSILVANIEI, NR.8, BL.C5, SC.B, ET.1, AP.25, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1191" model="res.partner">
+            <field name="name">FESTO S.R.L.</field>
+            <field name="vat">RO 6812058</field>
+            <field name="ref">J40/25908/1994</field>
+            <field name="street">STR. SF. CONSTANTIN, NR.17, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1035" model="res.partner">
+            <field name="name">FIBER MARKET S.R.L.</field>
+            <field name="vat">RO 37302733</field>
+            <field name="ref">J40/4355/2017</field>
+            <field name="street">STR. NĂMĂEŞTI, NR.24BIS, CAMERA 2, Sector 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1192" model="res.partner">
+            <field name="name">FOX COM SERV DISTRIBUTION SRL</field>
+            <field name="vat">RO 15096594</field>
+            <field name="ref">J40/13296/2002</field>
+            <field name="street">SOS. VITAN BIRZESTI, NR.5, SECTOR 4</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1193" model="res.partner">
+            <field name="name">FOX COM SERV SRL</field>
+            <field name="vat">RO 3750511</field>
+            <field name="ref">J40/1306/1992</field>
+            <field name="street">SOS. VITAN BARZESTI, NR.5, Sector 4</field>
+            <field name="city">Sector 4</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1194" model="res.partner">
+            <field name="name">GASTROMETAL SRL</field>
+            <field name="vat">RO29368672</field>
+            <field name="ref">J26/1142/2011</field>
+            <field name="street">STR.AGRICULTORILOR NR.2, SANGEORGIU DE MURES</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1195" model="res.partner">
+            <field name="name">GENESYS MEDICAL CLINIC SRL</field>
+            <field name="vat">RO 25349589</field>
+            <field name="ref">J02/355/2009</field>
+            <field name="street">STR. DR. CORNEL RADU, NR.3, MUN. ARAD</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1036" model="res.partner">
+            <field name="name">GLOBUS TRANSPORT SRL</field>
+            <field name="vat">RO 223673</field>
+            <field name="ref">J12/3151/1991</field>
+            <field name="street">Str. FĂGETULUI  14F          demisol-depozit  Cluj-Napoca, Cluj-Napoca</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1037" model="res.partner">
+            <field name="name">GTO SECURITY TECHNOLOGIES SRL</field>
+            <field name="vat">RO 17944305</field>
+            <field name="ref">J40/15517/2005</field>
+            <field name="street">STR. CEAHLĂU, NR.24, BL.106, SC.1, ET.1, AP.7, Sector 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1196" model="res.partner">
+            <field name="name">H - MEDICAL CLINIC S.R.L.</field>
+            <field name="vat">23723023</field>
+            <field name="ref">J20/676/2008</field>
+            <field name="street">HUNEDOARA, STR. CHIZID 16 cod postal : 331079</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1197" model="res.partner">
+            <field name="name">HANŢIG ADRIAN ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44258312</field>
+            <field name="ref">F35/764/2021</field>
+            <field name="street">NR.265, CAMERA 1, SAT PETROASA MARE  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1198" model="res.partner">
+            <field name="name">HAVRILEAC LUCIAN ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44276831</field>
+            <field name="ref">F35/793/2021</field>
+            <field name="street">NR.54, CAMERA 2, SAT DRĂGŞINEŞTI  FÂRDEA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1199" model="res.partner">
+            <field name="name">HD MEDIAPRESS STUDIO S.R.L.</field>
+            <field name="vat">RO 32978972</field>
+            <field name="ref">J20 /294 /2014</field>
+            <field name="street">BLD. DACIA, NR.21, BL.G2, SC.A, ET.1, AP.32, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1200" model="res.partner">
+            <field name="name">HEIDI CHOCOLAT S.A.</field>
+            <field name="vat">RO 6161022</field>
+            <field name="ref">J23/635/2002</field>
+            <field name="street">B-DUL BIRUINTEI, NR.87, SAT PANTELIMON ORŞ. PANTELIMON</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1038" model="res.partner">
+            <field name="name">HIDRAULIC SYSTEMS S.R.L.</field>
+            <field name="vat">RO 16348339</field>
+            <field name="ref">J20/603/2004</field>
+            <field name="street">STR. ARENEI, NR.1, BL.C1, SC.A, ET.3, AP.16, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1201" model="res.partner">
+            <field name="name">HIGHTECH SECURITY ROMANIA S.R.L.</field>
+            <field name="vat">RO 25720228</field>
+            <field name="ref">J40/7355/2009</field>
+            <field name="street">B-DUL IULIU MANIU, NR.7, CORP E, PARTER, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1202" model="res.partner">
+            <field name="name">HIQUAL ELECTRO SRL</field>
+            <field name="vat">RO 35125112</field>
+            <field name="ref">J05/1655/2015</field>
+            <field name="street">STR. TRANSILVANIEI, NR.16, BL.U1, SC.A, AP.35, ORADEA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1203" model="res.partner">
+            <field name="name">IBM ROMANIA SRL</field>
+            <field name="vat">RO 378660</field>
+            <field name="ref">J40/5106/1991</field>
+            <field name="street">ŞOS. ORHIDEELOR, NR.15D, CLĂDIREA A-THE BRIDGE, ET.5, Sector 6</field>
+            <field name="city">Sector 6</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1204" model="res.partner">
+            <field name="name">ID SYSTEM SRL</field>
+            <field name="vat">RO 18321283</field>
+            <field name="ref">J26/117/2006</field>
+            <field name="street">STR. TRANSILVANIEI, NR.40, AP.14, MUN. TÎRGU MUREŞ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1205" model="res.partner">
+            <field name="name">IMOB PROCONS S.R.L.</field>
+            <field name="vat">17049858</field>
+            <field name="ref">J20/1927/2004</field>
+            <field name="street">STR. ALEXANDRU VLAHUŢĂ, NR.6, BL.6, SC.C, ET.2, AP.25, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1206" model="res.partner">
+            <field name="name">IMSAT DACIA SA</field>
+            <field name="vat">RO 4126622</field>
+            <field name="ref">J20/1036/1993</field>
+            <field name="street">STR. C-TIN BURSAN, NR.2, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1207" model="res.partner">
+            <field name="name">INDEPENDENTA SA</field>
+            <field name="vat">RO 2577677</field>
+            <field name="ref">J32/210/1991</field>
+            <field name="street">STR. ŞTEFAN CEL MARE, NR.152-154, MUN. SIBIU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1208" model="res.partner">
+            <field name="name">INSTALATII GEVIS SRL</field>
+            <field name="vat">RO 5452945</field>
+            <field name="ref">J20/365/1994</field>
+            <field name="street">STR. ARDEALULUI, NR.1, Deva</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1209" model="res.partner">
+            <field name="name">INTERLOG COM SRL</field>
+            <field name="vat">RO 10418150</field>
+            <field name="ref">J20/213/1998</field>
+            <field name="street">STR. CUZA VODĂ, NR.11, AP.2, MUN. BRAD</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1039" model="res.partner">
+            <field name="name">IT BRIGHT SOLUTIONS S.R.L.</field>
+            <field name="vat">RO 41229258</field>
+            <field name="ref">J40/7474/2019</field>
+            <field name="street">STR. NICOLAE G. CARAMFIL, NR.71-73, BIROUL NR. 2, ET.3, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1040" model="res.partner">
+            <field name="name">IT CLICK &amp; SERVICE SRL</field>
+            <field name="vat">RO 33597275</field>
+            <field name="ref">J40/17944/2017</field>
+            <field name="street">B-DUL BUCUREŞTII NOI, NR.25A, IMOBIL P+3, BIROU COD A310, ET.3, Sector 1 Mun. Bucureşti</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1210" model="res.partner">
+            <field name="name">IULIA FARMACIA SRL</field>
+            <field name="vat">RO 4126525</field>
+            <field name="ref">J20/925/1993</field>
+            <field name="street">STR. CIOCARLIEI, NR.3</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1211" model="res.partner">
+            <field name="name">JIDVEI S.R.L.</field>
+            <field name="vat">RO 11380843</field>
+            <field name="ref">J01/14/1999</field>
+            <field name="street">STR. GĂRII, NR.45, Sat Jidvei Com. Jidvei</field>
+            <field name="city">Sat Jidvei Com. Jidvei</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1212" model="res.partner">
+            <field name="name">JIDVEI SRL FILIALA ALBA</field>
+            <field name="vat">RO 11380843</field>
+            <field name="ref">J01/14/1999</field>
+            <field name="street">STR. GĂRII, NR.45, SAT JIDVEI COM. JIDVEI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1213" model="res.partner">
+            <field name="name">JUDETUL CARAS-SEVERIN</field>
+            <field name="vat">3227890</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">PŢA. 1 DECEMBRIE 1918, NR.1, REŞIŢA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1214" model="res.partner">
+            <field name="name">JUDEŢUL HUNEDOARA</field>
+            <field name="vat">4374474</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">BLD. 1 DECEMBRIE 1918, NR.28, Mun. Deva</field>
+            <field name="city">Mun. Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1215" model="res.partner">
+            <field name="name">JYSK ROMÂNIA SRL</field>
+            <field name="vat">RO 18107744</field>
+            <field name="ref">J40/15662/2013</field>
+            <field name="street">B-DUL MIHAIL KOGĂLNICEANU, NR.53, CENTRUL DE BIROURI, ET.4,5 SI 6, SECTOR 5</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1041" model="res.partner">
+            <field name="name">KAUFLAND ROMANIA SCS</field>
+            <field name="vat">RO 15991149</field>
+            <field name="ref">J40/17052/2003</field>
+            <field name="street">Str. BARBU VACARESCU  120-144          -  Bucureşti  sect 2, București</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1042" model="res.partner">
+            <field name="name">KIMBRER COMPUTER</field>
+            <field name="vat">DK18630931</field>
+            <field name="ref">nan</field>
+            <field name="street">DENMARK</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.dk"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1043" model="res.partner">
+            <field name="name">KOFF DISTRIBUTION SRL</field>
+            <field name="vat">RO 35633960</field>
+            <field name="ref">J23/566/2016</field>
+            <field name="street">STR. OXIGENULUI, NR.2J, Sat Căldăraru Com. Cernica</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1216" model="res.partner">
+            <field name="name">KRIS VITAL S.R.L.</field>
+            <field name="vat">RO 32427396</field>
+            <field name="ref">J20/1001/2013</field>
+            <field name="street">STR. DUILIU ZAMFIRESCU, BL.O2, SC.2, ET.1, AP.41, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1217" model="res.partner">
+            <field name="name">KYNDRYL ROMANIA S.R.L.</field>
+            <field name="vat">RO 43973601</field>
+            <field name="ref">J40/5319/2021</field>
+            <field name="street">ŞOS. ORHIDEELOR, NR.15D, CLĂDIREA A - THE BRIDGE, ET.1, Sector 6</field>
+            <field name="city">Sector 6</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1218" model="res.partner">
+            <field name="name">L I M O R O M SRL</field>
+            <field name="vat">RO 6684862</field>
+            <field name="ref">J32/2130/1994</field>
+            <field name="street">STR. FABRICII, NR.4, Sibiu</field>
+            <field name="city">Sibiu</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1219" model="res.partner">
+            <field name="name">LABORATOARELE FARES BIO VITAL SRL</field>
+            <field name="vat">RO 13271346</field>
+            <field name="ref">J20/467/2000</field>
+            <field name="street">Str. PLANTELOR 50 - Orăştie, Orăștie</field>
+            <field name="city">Orăștie</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1044" model="res.partner">
+            <field name="name">LANTUL METALO TRANS COM S.R.L.</field>
+            <field name="vat">RO 2127656</field>
+            <field name="ref">J20/2106/1992</field>
+            <field name="street">PŢA. LIBERTĂŢII, NR.21A, Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1221" model="res.partner">
+            <field name="name">LASER TRIODENTAL S.R.L.</field>
+            <field name="vat">RO 32978875</field>
+            <field name="ref">J20/296/2014</field>
+            <field name="street">STR. MIHAI VITEAZU, BL.47, SC.C, ET.P, AP.22, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1045" model="res.partner">
+            <field name="name">LASTING SYSTEM S.A.</field>
+            <field name="vat">RO 6102484</field>
+            <field name="ref">J35/5006/1992</field>
+            <field name="street">STR. MIRON COSTIN, NR.2, TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1223" model="res.partner">
+            <field name="name">LECONFEX SRL</field>
+            <field name="vat">RO 2092175</field>
+            <field name="ref">J20/630/1991</field>
+            <field name="street">BLD. IULIU MANIU, NR.TRONSON B, BL.6, SC.B, ET.P, AP.10, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1046" model="res.partner">
+            <field name="name">LEROY MERLIN ROMANIA SRL</field>
+            <field name="vat">RO 16702141</field>
+            <field name="ref">J40/13616/2004</field>
+            <field name="street">STR. ICOANEI, NR.11-13, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1224" model="res.partner">
+            <field name="name">LICEUL DE ARTE SIGISMUND TODUTA DEVA</field>
+            <field name="vat">4374725</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. CIPRIAN PORUMBESCU, NR.4, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1225" model="res.partner">
+            <field name="name">LICEUL TEORETIC "SILVIU DRAGOMIR" ILIA</field>
+            <field name="vat">5673520</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. TUDOR VLADIMIRESCU, NR.12, Sat Ilia Com. Ilia</field>
+            <field name="city">Sat Ilia Com. Ilia</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1047" model="res.partner">
+            <field name="name">LIKE &amp; LIFE COM S.R.L.</field>
+            <field name="vat">RO 48412995</field>
+            <field name="ref">J40/12055/2023</field>
+            <field name="street">B-DUL 1 DECEMBRIE 1918, NR.13, BL.10, Sector 3</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1226" model="res.partner">
+            <field name="name">LINK FIT SPORT SRL</field>
+            <field name="vat">RO 36795943</field>
+            <field name="ref">J20/1206/2016</field>
+            <field name="street">STR. SÂNTUHALM,NR.35A,CORP B MUN. DEVA, MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1048" model="res.partner">
+            <field name="name">LOGICOM INFORMATION TECHNOLOGY DISTRIBUTION S.R.L.</field>
+            <field name="vat">RO 21457090</field>
+            <field name="ref">J40/8368/2018</field>
+            <field name="street">ŞOS. BUCUREŞTI-PLOIEŞTI, NR.9-13, ZONA II, ETAJ 5, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1227" model="res.partner">
+            <field name="name">LUIS LAZAR S.R.L.</field>
+            <field name="vat">40778762</field>
+            <field name="ref">J35/1341/2019</field>
+            <field name="street">STR. BOBÎLNA, NR.31, MUN. TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1228" model="res.partner">
+            <field name="name">LUNGU SILVIU-CONSTANTIN PERSOANĂ FIZICĂ AUTORIZATĂ</field>
+            <field name="vat">44488273</field>
+            <field name="ref">F35/1034/2021</field>
+            <field name="street">STR. ALEXANDRU MOCIONI, NR.3, LUGOJ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1220" model="res.partner">
+            <field name="name">Lancom</field>
+            <field name="vat">-</field>
+            <field name="ref">-</field>
+            <field name="street">Bucuresti</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1229" model="res.partner">
+            <field name="name">M&amp;M GINA LAZAR S.R.L. </field>
+            <field name="vat">40785557</field>
+            <field name="ref">J35 /1365 /2019 </field>
+            <field name="street">MUN. LUGOJ , STR. STRANDULUI, NR.1, AP.2 </field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1230" model="res.partner">
+            <field name="name">MACON SRL</field>
+            <field name="vat">RO 18991933</field>
+            <field name="ref">J20/889/2007</field>
+            <field name="street">ŞOS. HUNEDOAREI, NR.1-3, SAT CRISTUR MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1231" model="res.partner">
+            <field name="name">MAGUAY COMPUTERS</field>
+            <field name="vat">12167046</field>
+            <field name="ref">J40/7890/1999</field>
+            <field name="street">BUCURESTI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1232" model="res.partner">
+            <field name="name">MARCONFORT TURISM S.R.L.</field>
+            <field name="vat">RO 34357726</field>
+            <field name="ref">J20/308/2015</field>
+            <field name="street">STR. BISERICILOR, NR.6, Orş. Haţeg</field>
+            <field name="city">Orş. Haţeg</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1233" model="res.partner">
+            <field name="name">MARIA TURISM SRL</field>
+            <field name="vat">RO 17424990</field>
+            <field name="ref">J01/398/2005</field>
+            <field name="street">STR. GĂRII, NR.32, Sat Jidvei Com. Jidvei</field>
+            <field name="city">Sat Jidvei Com. Jidvei</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1234" model="res.partner">
+            <field name="name">MARMOSIM SA</field>
+            <field name="vat">RO 2150373</field>
+            <field name="ref">J20/4/1991</field>
+            <field name="street">STR. CUZA VODĂ, NR.24, Orş. Simeria</field>
+            <field name="city">Orş. Simeria</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1049" model="res.partner">
+            <field name="name">MB DISTRIBUTION SRL</field>
+            <field name="vat">RO 6646605</field>
+            <field name="ref">J40/26946/1994</field>
+            <field name="street">STR. BARBU VACARESCU, NR.162, Sector 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1050" model="res.partner">
+            <field name="name">MEBELISSIMO S.R.L.</field>
+            <field name="vat">RO 41213669</field>
+            <field name="ref">J30/657/2019</field>
+            <field name="street">STR. LITTECZKY ENDRE, NR.5, Satu Mare</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1051" model="res.partner">
+            <field name="name">MEDIA CRUSHER SRL</field>
+            <field name="vat">RO 18640363</field>
+            <field name="ref">J35/1450/2006</field>
+            <field name="street">CAL. TORONTALULUI, DN6 KM 560+800 M STÂNGA, TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1052" model="res.partner">
+            <field name="name">META GENICO WEB S.R.L.</field>
+            <field name="vat">RO 46142771</field>
+            <field name="ref">J40 /9308 /2022</field>
+            <field name="street">Intr. GHEORGHE SIMIONESCU 19 Ap:B26 - Bucuresti sect 1, București</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1053" model="res.partner">
+            <field name="name">METRO CASH &amp; CARRY ROMANIA SRL</field>
+            <field name="vat">RO 8119423</field>
+            <field name="ref">J40/9081/2010</field>
+            <field name="street">BLD. THEODOR PALLADY, NR.51N, BL.CLADIREA C6, ET.CORP A, SECTOR 3</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1054" model="res.partner">
+            <field name="name">MEYSTAR SRL</field>
+            <field name="vat">RO 16195952</field>
+            <field name="ref">J20/292/2004</field>
+            <field name="street">STR. SCHITULUI, NR.6, SAT CINCIŞ-CERNA  TELIUCU INFERIOR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1235" model="res.partner">
+            <field name="name">MICULAICIUC VASILE AGRO ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44226795</field>
+            <field name="ref">F35/705/2021</field>
+            <field name="street">P, NR.109, CAM. 3, SAT BRĂNEŞTI  FĂGET</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1236" model="res.partner">
+            <field name="name">MILENA PROCONS S.R.L.</field>
+            <field name="vat">36629690</field>
+            <field name="ref">J20/1061/2016</field>
+            <field name="street">ALEEA COCSARILOR, NR.8, BL.8, SC.B, ET.PARTER, AP.33, Mun. Hunedoara</field>
+            <field name="city">Mun. Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1237" model="res.partner">
+            <field name="name">MILU OANA-DIANA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44131580</field>
+            <field name="ref">F35/568/2021</field>
+            <field name="street">NR.124, SAT RĂCHITA  DUMBRAVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1238" model="res.partner">
+            <field name="name">MINDSOFT IT SOLUTIONS S.R.L.</field>
+            <field name="vat">RO 43164376</field>
+            <field name="ref">J32/1342/2020</field>
+            <field name="street">PŢA. UNIRII, NR.4, ET.3, Sibiu</field>
+            <field name="city">Sibiu</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1239" model="res.partner">
+            <field name="name">MIR PAN GRUP SRL</field>
+            <field name="vat">RO 15453760</field>
+            <field name="ref">J20/550/2003</field>
+            <field name="street">STR. MUREŞUL, NR.10, ET.P, MUN. ORĂŞTIE</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1240" model="res.partner">
+            <field name="name">MITAR ANDREEA-NICOLETA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44130541</field>
+            <field name="ref">F35/560/2021</field>
+            <field name="street">NR.45, CAMERA 3, SAT PĂDURENI  PĂDURENI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1241" model="res.partner">
+            <field name="name">MITAR DANIELA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44314510</field>
+            <field name="ref">F35/850/2021</field>
+            <field name="street">NR.42, CAMERA 2, SAT VALEA LUNGĂ ROMÂNĂ  COŞTEIU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1242" model="res.partner">
+            <field name="name">MK ILLUMINATION S.R.L.</field>
+            <field name="vat">RO 15856363</field>
+            <field name="ref">J20/1332/2003</field>
+            <field name="street">Str. THEODOR AMAN - Bl:6 Ap:3 - HUNEDOARA, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1243" model="res.partner">
+            <field name="name">MONDO PLAST SRL</field>
+            <field name="vat">RO 12755240</field>
+            <field name="ref">J11/53/2000</field>
+            <field name="street">STR. DAMASCHIN BOJINCA, NR.1, BL.1, SC.1, AP.1, BOCŞA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1244" model="res.partner">
+            <field name="name">MULTI EXPERT SHOP S.R.L.</field>
+            <field name="vat">41937327</field>
+            <field name="ref">J20/1719/2019</field>
+            <field name="street">BLD. RUSCA, NR.4, BL.17G, SC.A, ET.3, AP.15, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1245" model="res.partner">
+            <field name="name">MUNICIPIUL HUNEDOARA</field>
+            <field name="vat">2127028</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. LIBERTĂŢII, NR.17, MUN. HUNEDOARA</field>
+            <field name="city">MUN. HUNEDOARA</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1246" model="res.partner">
+            <field name="name">MUNICIPIUL ORASTIE</field>
+            <field name="vat">4634515</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">Aurel Vlaicu 3 - Orăştie, Orăștie</field>
+            <field name="city">Orăştie</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1247" model="res.partner">
+            <field name="name">NASCA ANDRA-MARIA</field>
+            <field name="vat"></field>
+            <field name="ref">CJ170655</field>
+            <field name="street">CLUJ-NAPOCA , STR.MARAMURESULUI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1248" model="res.partner">
+            <field name="name">NAVIGATII ANDROID</field>
+            <field name="vat">RO41999044</field>
+            <field name="ref">J40/16813/2019</field>
+            <field name="street">Bucuresti</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1055" model="res.partner">
+            <field name="name">NETTER SYSTEM SRL</field>
+            <field name="vat">RO 15711087</field>
+            <field name="ref">J19/755/2003</field>
+            <field name="street">STR. HARGHITEI, NR.13, CRISTURU SECUIESC</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1056" model="res.partner">
+            <field name="name">NETWORK ONE DISTRIBUTION SRL</field>
+            <field name="vat">RO 15056387</field>
+            <field name="ref">J40/14309/2012</field>
+            <field name="street">STR. MARCEL IANCU, NR.3-5, ET.P, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1250" model="res.partner">
+            <field name="name">NEW-FASHION SA</field>
+            <field name="vat">RO 3600271</field>
+            <field name="ref">J14/182/1993</field>
+            <field name="street">STR. FABRICII, NR.11, MUN. TÂRGU SECUIESC</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1057" model="res.partner">
+            <field name="name">NICAUTO ELECTRIC S.R.L.</field>
+            <field name="vat">34357718</field>
+            <field name="ref">J20 /306 /2015</field>
+            <field name="street">B-dul DACIA 5 Bl:A1-1 Sc:A Et:9 Ap:32 - Hunedoara, Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1058" model="res.partner">
+            <field name="name">NOMILAND RO S.R.L.</field>
+            <field name="vat">RO 40550259</field>
+            <field name="ref">J35/693/2019</field>
+            <field name="street">STR. SURORILE MARTIR CACEU, NR.7, SAD VI, ET.1, Timişoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1251" model="res.partner">
+            <field name="name">NOVAINTERMED SRL</field>
+            <field name="vat">RO 6220293</field>
+            <field name="ref">J40/17001/1994</field>
+            <field name="street">STR. CEAIKOVSKI, NR.7, SC.2, ET.1, AP.18, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1252" model="res.partner">
+            <field name="name">ONCEA IOAN AGRO ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44252450</field>
+            <field name="ref">F35/749/2021</field>
+            <field name="street">NR.28, SAT PETROASA MARE  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1253" model="res.partner">
+            <field name="name">OPEN POWER ELECTRIC GLOBAL S.R.L.</field>
+            <field name="vat">RO 40569472</field>
+            <field name="ref">J29 /744 /2019</field>
+            <field name="street">STR. PRIMĂVERII, NR.31, SLĂNIC</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1254" model="res.partner">
+            <field name="name">OPTIM SIG INSTAL S.R.L.</field>
+            <field name="vat">RO 12550113</field>
+            <field name="ref">J20/5/2000</field>
+            <field name="street">ALEEA PATRIEI, NR.2, BL.D1, SC.1, ET.3, AP.39, DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1255" model="res.partner">
+            <field name="name">ORASUL PETRILA</field>
+            <field name="vat">4375097</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. REPUBLICII, NR.196, PETRILA</field>
+            <field name="city">PETRILA</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1059" model="res.partner">
+            <field name="name">P PLUS 2002 S.R.L.</field>
+            <field name="vat">RO 14560121</field>
+            <field name="ref">J40/2719/2002</field>
+            <field name="street">STR. DEZROBIRII, NR.44, BL.O9, SC.A, ET.6, AP.37, Sector 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1257" model="res.partner">
+            <field name="name">PANAMERIA MERY S.R.L.</field>
+            <field name="vat">41153273</field>
+            <field name="ref">J20/915/2019</field>
+            <field name="street">STR. ATELIERULUI, BL.6, SC.H, ET.2, AP.36, SIMERIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1258" model="res.partner">
+            <field name="name">PAROHIA REFORMATA HUNEDOARA</field>
+            <field name="vat">7812501</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">STR. 9 MAI, NR.19, Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1259" model="res.partner">
+            <field name="name">PAROHIA ROMANA UNITA CU ROMA GRECO CATOLICA</field>
+            <field name="vat">9499983</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">HUNEDOARA, CHIZID Nr. 131</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1260" model="res.partner">
+            <field name="name">PAROHIA ROMANO - CATOLICA</field>
+            <field name="vat">4633919</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. REVOLUŢIEI, NR.5, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1261" model="res.partner">
+            <field name="name">PASTRAMĂ-GHERGHEL IOANA-SILVANA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44221151</field>
+            <field name="ref">F35/692/2021</field>
+            <field name="street">NR.343, SAT VIŞAG  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1262" model="res.partner">
+            <field name="name">PEHART TEC GRUP S.A.</field>
+            <field name="vat">RO 17736215</field>
+            <field name="ref">J01/1060/2020</field>
+            <field name="street">STR. 1 MAI, NR.1, LOC. PETREŞTI  SEBEŞ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1263" model="res.partner">
+            <field name="name">PEHART TEC SA</field>
+            <field name="vat">17565441</field>
+            <field name="ref">J01/645/2005</field>
+            <field name="street">STR. 1 MAI, NR.1, LOC. PETREŞTI  SEBEŞ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1265" model="res.partner">
+            <field name="name">PERNAT ROMANIA S.R.L.</field>
+            <field name="vat">RO 14697677</field>
+            <field name="ref">J20/461/2002</field>
+            <field name="street">STR. CODRULUI, NR.30, Orăştie</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1267" model="res.partner">
+            <field name="name">PF Carmen Ciun</field>
+            <field name="vat">-</field>
+            <field name="ref">-</field>
+            <field name="street">Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1268" model="res.partner">
+            <field name="name">PF DUMAN CLAUDIU</field>
+            <field name="vat">-</field>
+            <field name="ref">HD 794545</field>
+            <field name="street">Hunedoara, Aleea Chizid nr. 11</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1269" model="res.partner">
+            <field name="name">PF MAGERIE LIVIU ANDREI</field>
+            <field name="vat">-</field>
+            <field name="ref">HD 568105</field>
+            <field name="street">Hunedoara Str. Otelarilor nr. 1, bl. P1, sc. A, et. 1, ap. 7</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1270" model="res.partner">
+            <field name="name">PHOTO-PRINT CENTER SRL</field>
+            <field name="vat">34710193</field>
+            <field name="ref">J01/490/2015</field>
+            <field name="street">STR. ALEXANDRU SAHIA, NR.15, ORŞ. CUGIR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1060" model="res.partner">
+            <field name="name">PLAUT CONSULTING ROMÂNIA SRL</field>
+            <field name="vat">RO 17375382</field>
+            <field name="ref">J40/5223/2005</field>
+            <field name="street">STR.  CAROL DAVILA, NR.37, SECTOR 5</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1271" model="res.partner">
+            <field name="name">POJOGA GHEORGHE-IRINEL ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44140596</field>
+            <field name="ref">F35/576/2021</field>
+            <field name="street">NR.54A, CAMERA, SAT VICTOR VLAD DELAMARINA  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1272" model="res.partner">
+            <field name="name">POJOGA NICOLAE-SABIN ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44140561</field>
+            <field name="ref">F35/572/2021</field>
+            <field name="street">NR.56, SAT VICTOR VLAD DELAMARINA  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1061" model="res.partner">
+            <field name="name">POLON-ALFA ROMANIA S.R.L.</field>
+            <field name="vat">RO 29456839</field>
+            <field name="ref">J40/14948/2011</field>
+            <field name="street">SPL. UNIRII, NR.247-249, PARTER, ETAJ 1, ETAJ 2, SECTOR 3</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1274" model="res.partner">
+            <field name="name">POVI PROJECT S.R.L.</field>
+            <field name="vat">40432466</field>
+            <field name="ref">J35/239/2019</field>
+            <field name="street">STR. TIMIŞORII, NR.16, CAM. 2, MUN. LUGOJ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1275" model="res.partner">
+            <field name="name">PRAXIMED HD SRL</field>
+            <field name="vat">27995390</field>
+            <field name="ref">J20 /129 /2011</field>
+            <field name="street">STR. GEORGE ENESCU, NR.5, AP.2, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1276" model="res.partner">
+            <field name="name">PRAXIMED SRL</field>
+            <field name="vat">6822213</field>
+            <field name="ref">J20/1586/1994</field>
+            <field name="street">STR. GEORGE ENESCU, NR.5, AP.2, HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1277" model="res.partner">
+            <field name="name">PROIECTARE VISA S.R.L.</field>
+            <field name="vat">35461287</field>
+            <field name="ref">J20/77/2016</field>
+            <field name="street">STR. MIHAIL SADOVEANU, NR.54B, MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1063" model="res.partner">
+            <field name="name">PROMELEK XXI S.A.</field>
+            <field name="vat">RO 6845993</field>
+            <field name="ref">J12/4202/1994</field>
+            <field name="street">STR. LIBERTĂŢII, NR.21, SAT APAHIDA  APAHIDA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1064" model="res.partner">
+            <field name="name">PROMO DIVISION SRL</field>
+            <field name="vat">RO 33941343</field>
+            <field name="ref">J40/44/2015</field>
+            <field name="street">STR. DRAGOŞ VODĂ, NR.42-44, Sector 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1279" model="res.partner">
+            <field name="name">PROSERV SA</field>
+            <field name="vat">RO 14552617</field>
+            <field name="ref">J20/278/2002</field>
+            <field name="street">PŢA. IANCU DE HUNEDOARA, NR.1, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1065" model="res.partner">
+            <field name="name">PUNKT NET SRL</field>
+            <field name="vat">RO 17861404</field>
+            <field name="ref">J03/1489/2005</field>
+            <field name="street">STR. NUFĂRULUI, NR.3, Sat Bascov Com. Bascov</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1264" model="res.partner">
+            <field name="name">Pensiune Eva</field>
+            <field name="vat">-</field>
+            <field name="ref">-</field>
+            <field name="street">Soimus</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1266" model="res.partner">
+            <field name="name">Persoana Fizica </field>
+            <field name="vat">-</field>
+            <field name="ref">-</field>
+            <field name="street">Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1062" model="res.partner">
+            <field name="name">PrintCMR</field>
+            <field name="vat"></field>
+            <field name="ref">nan</field>
+            <field name="street">nan</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.nl"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1280" model="res.partner">
+            <field name="name">RADU MITREA</field>
+            <field name="vat"></field>
+            <field name="ref">HD 637133</field>
+            <field name="street">Petrosani,str.Independentei,bl.8</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1281" model="res.partner">
+            <field name="name">RECOM SID SA</field>
+            <field name="vat">RO 14552595</field>
+            <field name="ref">J20/277/2002</field>
+            <field name="street">P-TA IANCU DE HUNEDOARA, NR.1, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1282" model="res.partner">
+            <field name="name">REFRACERAM SRL</field>
+            <field name="vat">RO 15776493</field>
+            <field name="ref">J20/1194/2003</field>
+            <field name="street">STR. PRINCIPALA, NR.314, SAT BARU COM. BARU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1066" model="res.partner">
+            <field name="name">RENEWTECH</field>
+            <field name="vat">DK18630931</field>
+            <field name="ref">DK18630391</field>
+            <field name="street">DENMARK</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.dk"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1283" model="res.partner">
+            <field name="name">RESITEX GROUP S.R.L.</field>
+            <field name="vat">RO 21635111</field>
+            <field name="ref">J20/638/2007</field>
+            <field name="street">BLD. IULIU MANIU, BL.6, SC.1, ET.1, AP.8, MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1284" model="res.partner">
+            <field name="name">REVA S.A.</field>
+            <field name="vat">RO 2150217</field>
+            <field name="ref">J20/643/1992</field>
+            <field name="street">STR. ATELIERULUI, NR.32, SIMERIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1285" model="res.partner">
+            <field name="name">ROMADOOR BUILDING SYSTEMS  SRL</field>
+            <field name="vat">RO 32675111</field>
+            <field name="ref">J20/767/2017</field>
+            <field name="street">PŢA. IANCU DE HUNEDOARA, NR.1C, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1286" model="res.partner">
+            <field name="name">ROMAR PROCONS S.R.L.</field>
+            <field name="vat">40785697</field>
+            <field name="ref">J35/1369/2019</field>
+            <field name="street">STR. CONSTANTIN BRÂNCOVEANU, NR.4, MUN. LUGOJ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1067" model="res.partner">
+            <field name="name">ROMSYM DATA SRL</field>
+            <field name="vat">RO 2624809</field>
+            <field name="ref">J40/21874/1992</field>
+            <field name="street">STR. POPA NAN, NR.108A, Sector 3</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1068" model="res.partner">
+            <field name="name">ROMSYSTEMS SRL</field>
+            <field name="vat">RO 15437993</field>
+            <field name="ref">J04/535/2003</field>
+            <field name="street">STR. ABATORULUI, NR.4, BACĂU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1069" model="res.partner">
+            <field name="name">ROYAL COMPUTERS S.R.L.</field>
+            <field name="vat">RO 17567922</field>
+            <field name="ref">J40/8484/2005</field>
+            <field name="street">STR. G-RAL IOAN CULCER, NR.32, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1070" model="res.partner">
+            <field name="name">S.B.T. ELECTROCM SRL</field>
+            <field name="vat">RO 37147451</field>
+            <field name="ref">J20/239/2017</field>
+            <field name="street">STR. PROGRESULUI, BL.2B, SC.1, AP.4, Mun. Deva</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1071" model="res.partner">
+            <field name="name">SCHRACK TECHNIK S.R.L.</field>
+            <field name="vat">RO 10980661</field>
+            <field name="ref">J40/37/2018</field>
+            <field name="street">B-DUL IULIU MANIU, NR.453-457, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1289" model="res.partner">
+            <field name="name">SCOALA GIMNAZIALA LUNCA CERNII DE JOS</field>
+            <field name="vat">29000874</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">NR.19, SAT LUNCA CERNII DE JOS  LUNCA CERNII DE JOS</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1290" model="res.partner">
+            <field name="name">SCOALA GIMNAZIALA VISCA</field>
+            <field name="vat">29045388</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">NR.149, SAT VISCA  VORŢA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1291" model="res.partner">
+            <field name="name">SE BORDNETZE SRL</field>
+            <field name="vat">RO 26649690</field>
+            <field name="ref">J11/208/2010</field>
+            <field name="street">LUNCA GROFULUI - DN6, KM.450+0,50, ZONA CARANSEBES, ZONA DE BIROURI A; ZONA DE BIROURI B SI ZONA DE BIROURI C Buchin, Buchin</field>
+            <field name="city">Buchin</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1292" model="res.partner">
+            <field name="name">SEBASTIAN ŞUŞMAN - CABINET DE AVOCAT</field>
+            <field name="vat">33666936</field>
+            <field name="ref">- /- /-</field>
+            <field name="street">STR. CIPRIAN PORUMBESCU, NR.1, BL.X1, AP.7, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1072" model="res.partner">
+            <field name="name">SECPRAL COM SRL</field>
+            <field name="vat">RO 5908775</field>
+            <field name="ref">J12/1811/1994</field>
+            <field name="street">STR. CÂMPUL PÂINII, NR.26, CLUJ-NAPOCA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1073" model="res.partner">
+            <field name="name">SENIA MUSIC SRL</field>
+            <field name="vat">RO 21547729</field>
+            <field name="ref">J40/7356/2007</field>
+            <field name="street">STR. ION CAMPINEANU, NR.25, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1294" model="res.partner">
+            <field name="name">SEWS ROMANIA S.R.L.</field>
+            <field name="vat">RO 13276556</field>
+            <field name="ref">J20/468/2000</field>
+            <field name="street">CALEA ZARANDULUI, NR.166, Deva</field>
+            <field name="city">Deva</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1295" model="res.partner">
+            <field name="name">SEWS ROMANIA SRL PUNCT DE LUCRU ALBA IULIA</field>
+            <field name="vat">16343919</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. ALEXANDRU IOAN CUZA, NR.28B, ALBA IULIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1296" model="res.partner">
+            <field name="name">SIMCOR VAR S.R.L.</field>
+            <field name="vat">RO 13532689</field>
+            <field name="ref">J20/579/2009</field>
+            <field name="street">ŞOS. HUNEDOAREI, NR.1-3, BIROURI, CAMERA 03</field>
+            <field name="city">Sat Cristur</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1297" model="res.partner">
+            <field name="name">SIMCOR VAR SA</field>
+            <field name="vat">RO 13532689</field>
+            <field name="ref">J20/579/2009</field>
+            <field name="street">ŞOS. HUNEDOAREI, NR.1-3, BIROURI, CAMERA 03, SAT CRISTUR MUN. DEVA</field>
+            <field name="city">Abucea</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1298" model="res.partner">
+            <field name="name">SMART ELECTRICAL SOLUTIONS SRL</field>
+            <field name="vat">RO 16753080</field>
+            <field name="ref">J30/986/2004</field>
+            <field name="street">STR. GRIGORE URECHE, NR.71/A, SATU-MARE</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1074" model="res.partner">
+            <field name="name">SOBIS SOLUTIONS SRL</field>
+            <field name="vat">RO 12018818</field>
+            <field name="ref">J32/348/1999</field>
+            <field name="street">NR.505, Sat Arpaşu de Sus Com. Arpaşu de Jos</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1075" model="res.partner">
+            <field name="name">SON MOTORS SRL</field>
+            <field name="vat">RO 31365490</field>
+            <field name="ref">J32/225/2013</field>
+            <field name="street">ŞOS. SIBIULUI, NR.28, Sat Şelimbăr Com. Şelimbăr</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1299" model="res.partner">
+            <field name="name">SPITALUL JUDETEAN DE URGENTA DEVA</field>
+            <field name="vat">4374385</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">BLD. 22 DECEMBRIE, NR.58, Deva</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1300" model="res.partner">
+            <field name="name">SPITALUL MUNICIPAL ORASTIE</field>
+            <field name="vat">5808334</field>
+            <field name="ref">-</field>
+            <field name="street">ORĂȘTIE, PRICAZULUI 16 cod postal : 335700</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1301" model="res.partner">
+            <field name="name">SPITALUL ORASANESC HATEG</field>
+            <field name="vat">4375011</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">STR. TUDOR VLADIMIRESCU, NR.7, HAŢEG</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1076" model="res.partner">
+            <field name="name">SPYSHOP SRL</field>
+            <field name="vat">RO 25051565</field>
+            <field name="ref">J35/229/2009</field>
+            <field name="street">STR. SFINŢII APOSTOLI PETRU ŞI PAVEL, NR.3, BIROUL NR. 13, ET.MANSARDA, TIMIŞOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1302" model="res.partner">
+            <field name="name">STAR ASSEMBLY SRL</field>
+            <field name="vat">RO 31875758</field>
+            <field name="ref">J01/387/2013</field>
+            <field name="street">STR. AUGUSTIN BENA, NR.106, MUN. SEBEŞ</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1077" model="res.partner">
+            <field name="name">START BIT NET SRL</field>
+            <field name="vat">RO 17009845</field>
+            <field name="ref">J40/10476/2009</field>
+            <field name="street">SPL. UNIRII, NR.313, BL.CLD ICPE ELECTRECORD, ET.P, AP.CAMERA 13, SECTOR 3</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1078" model="res.partner">
+            <field name="name">STRAXUS DISTRIBUTION S.R.L.</field>
+            <field name="vat">26077105</field>
+            <field name="ref">J22/1620/2009</field>
+            <field name="street">STR. EGALITĂŢII, NR.33, BL.804, SC.B, ET.3, AP.14, IAŞI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1303" model="res.partner">
+            <field name="name">STRĂIN CRISTINA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44252549</field>
+            <field name="ref">F35/748/2021</field>
+            <field name="street">NR.30, CAMERA 3, SAT REMETEA-LUNCA  MĂNĂŞTIUR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1304" model="res.partner">
+            <field name="name">SUCCES CONF RO S.R.L.</field>
+            <field name="vat">RO 14949294</field>
+            <field name="ref">J20/809/2002</field>
+            <field name="street">STR. CASTELULUI, NR.49 B, MUN. HUNEDOARA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1305" model="res.partner">
+            <field name="name">SUMIDA ROMANIA SRL</field>
+            <field name="vat">RO 10441497</field>
+            <field name="ref">J35/391/1998</field>
+            <field name="street">STR. CORNELIU COPOSU, NR.1A, Orş. Jimbolia</field>
+            <field name="city">Orş. Jimbolia</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1079" model="res.partner">
+            <field name="name">SUPECO INVESTMENT SRL</field>
+            <field name="vat">RO 33067767</field>
+            <field name="ref">J40/4693/2014</field>
+            <field name="street">STR. BARBU VĂCĂRESCU, NR.146-158, CENTRUL COMERCIAL, BIROUL A, ET.2, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1306" model="res.partner">
+            <field name="name">SWISS TRADE SRL</field>
+            <field name="vat">RO 13456123</field>
+            <field name="ref">J20/592/2000</field>
+            <field name="street">BLD. 1848, NR.5, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1080" model="res.partner">
+            <field name="name">TARABOSTES SOFTWARE SRL</field>
+            <field name="vat">RO 24440297</field>
+            <field name="ref">J10/1242/2008</field>
+            <field name="street">STR. VIITORULUI, BL.G2, ET.3, AP.15, Buzău</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1081" model="res.partner">
+            <field name="name">TARGET S.R.L.</field>
+            <field name="vat">RO 12426167</field>
+            <field name="ref">J20/775/1999</field>
+            <field name="street">BLD. LIBERTĂŢII, NR.7, Mun. Hunedoara</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1082" model="res.partner">
+            <field name="name">TD SYNNEX BUCHAREST S.R.L.</field>
+            <field name="vat">RO 21267001</field>
+            <field name="ref">J40/4615/2015</field>
+            <field name="street">CAL. FLOREASCA, NR.175, FLOREASCA TOWER, ET.8, Sector 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1083" model="res.partner">
+            <field name="name">TEAM TELECOM SRL</field>
+            <field name="vat">RO 14306256</field>
+            <field name="ref">J40/9771/2001</field>
+            <field name="street">STR. COPILULUI, NR.6-12, BL.TRONSON  2, SC.E, ET.1, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1084" model="res.partner">
+            <field name="name">TEHNO ELECTRIC SRL</field>
+            <field name="vat">RO 16179086</field>
+            <field name="ref">J05/330/2004</field>
+            <field name="street">STR. DR. LOUIS PASTEUR, NR.63, Oradea</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1085" model="res.partner">
+            <field name="name">TELEPRECISION-MTS SRL</field>
+            <field name="vat">RO 25535204</field>
+            <field name="ref">J40/5699/2009</field>
+            <field name="street">STR. ILARIE CHENDI, NR.29, SECTOR 2</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1308" model="res.partner">
+            <field name="name">TOMIŢA DANIEL AGRO ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">RO 44542119</field>
+            <field name="ref">F35/1099/2021</field>
+            <field name="street">NR.56, SAT JABĂR  BOLDUR</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1309" model="res.partner">
+            <field name="name">TRANSILVANIA NUTS SRL</field>
+            <field name="vat">RO 15096888</field>
+            <field name="ref">J01/657/2002</field>
+            <field name="street">CAL. ALBA IULIA, NR.36, Sat Drâmbar Com. Ciugud</field>
+            <field name="city">Sat Drâmbar Com. Ciugud</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1310" model="res.partner">
+            <field name="name">TRIAS AMWAY SRL</field>
+            <field name="vat">RO 11301807</field>
+            <field name="ref">J40/12003/1998</field>
+            <field name="street">STR. ZBOINA NEAGRA, NR.8-10, BL.91-95, SC.4, AP.133, SECTOR 6</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1311" model="res.partner">
+            <field name="name">TRUCK AUTO HOUSE S.R.L.</field>
+            <field name="vat">RO 30663870</field>
+            <field name="ref">J20/834/2012</field>
+            <field name="street">SÎNTANDREI, NR.130, SAT SÂNTANDREI  SIMERIA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1312" model="res.partner">
+            <field name="name">TURSIB SA</field>
+            <field name="vat">RO 789401</field>
+            <field name="ref">J32/1024/1998</field>
+            <field name="street">STR. MÜNCHEN, NR.1, SIBIU</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1313" model="res.partner">
+            <field name="name">TĂTARU ANA-NICOLETA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44323224</field>
+            <field name="ref">F35/855/2021</field>
+            <field name="street">NR.253, SAT DUMBRAVA  DUMBRAVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1314" model="res.partner">
+            <field name="name">UEROM FURNITURE CO. S.R.L.</field>
+            <field name="vat">RO 41376500</field>
+            <field name="ref">J20/1136/2019</field>
+            <field name="street">STR. ARMATEI, NR.38, Orăştie</field>
+            <field name="city">Orăştie</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1315" model="res.partner">
+            <field name="name">UNIVERSITATEA POLITEHNICA TIMISOARA</field>
+            <field name="vat">4269282</field>
+            <field name="ref">-/-/-</field>
+            <field name="street">PŢA. VICTORIEI, NR.2, Timişoara</field>
+            <field name="city">Timişoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1086" model="res.partner">
+            <field name="name">UPS DISTRIBUTION SRL</field>
+            <field name="vat">RO 13675662</field>
+            <field name="ref">J19/29/2001</field>
+            <field name="street">STR. GÁBOR ÁRON, NR.3, GHEORGHENI</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1317" model="res.partner">
+            <field name="name">UZINA MECANICA ORASTIE SA</field>
+            <field name="vat">RO 15657042</field>
+            <field name="ref">J20/918/2003</field>
+            <field name="street">STR. NICOLAE TITULESCU, NR.60, Mun. Orăştie</field>
+            <field name="city">Mun. Orastie</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1318" model="res.partner">
+            <field name="name">VH ELECTRONIC SRL</field>
+            <field name="vat">RO 8748091</field>
+            <field name="ref">J16/1068/1996</field>
+            <field name="street">STR. RIULUI, NR.429, CRAIOVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1319" model="res.partner">
+            <field name="name">VHCI BUSINESS DEVELOPMENT SRL</field>
+            <field name="vat">RO 25131494</field>
+            <field name="ref">J40/2067/2009</field>
+            <field name="street">STR. AVIONULUI, NR.26, BIROUL B, ET.1, SECTOR 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1320" model="res.partner">
+            <field name="name">VIT MARIANA-FLORENTINA ÎNTREPRINDERE INDIVIDUALĂ</field>
+            <field name="vat">44210772</field>
+            <field name="ref">F35/676/2021</field>
+            <field name="street">NR.150, SAT VIŞAG  VICTOR VLAD DELAMARINA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1321" model="res.partner">
+            <field name="name">VIVA CONSTRUCT SRL</field>
+            <field name="vat">RO 16034220</field>
+            <field name="ref">J20/29/2004</field>
+            <field name="street">STR. DEPOZITELOR, NR.2B, MUN. DEVA</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1087" model="res.partner">
+            <field name="name">WIFI WORLD SRL</field>
+            <field name="vat">RO 33169830</field>
+            <field name="ref">J08/767/2014</field>
+            <field name="street">STR. GHEORGHE DOJA, NR.86, Mun. Făgăraş</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1088" model="res.partner">
+            <field name="name">XTRA SALES MARKET S.R.L.</field>
+            <field name="vat">RO 43516677</field>
+            <field name="ref">J40/81/2021</field>
+            <field name="street">STR. GAROFIŢEI, NR.15A-17, Sector 1</field>
+            <field name="city">nan</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+        
+        <record id="res_partner_1322" model="res.partner">
+            <field name="name">ZANELA CONSULTING S.R.L.</field>
+            <field name="vat">16528844</field>
+            <field name="ref">J20/946/2004</field>
+            <field name="street">STR. MIHAI EMINESCU, NR.4, Hunedoara</field>
+            <field name="city">Hunedoara</field>
+            <field name="country_id" ref="base.ro"/>
+            <field name="is_company">1</field>
+            <!--field eval="[Command.set([ref('res_partner_category_14'), ref('res_partner_category_0')])]" name="category_id"/-->
+        </record>
+            </data>
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_project_form_inherit_warehouse_and_locations" model="ir.ui.view">
+            <field name="name">project.project.form.warehouse.locations</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.edit_project"/>
+            <field name="arch" type="xml">
+                <xpath expr="//sheet" position="inside">
+                    <group string="Stock Configuration">
+                        <group string="Warehouses">
+                            <field name="warehouse_id" />
+                            <field name="destination_warehouse_id" />
+                        </group>
+                        <group string="Locations">
+                            <field name="location_source_id" />
+                            <field name="location_dest_id" />
+                        </group>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>    

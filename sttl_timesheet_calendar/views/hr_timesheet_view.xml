@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- Calendar View for Timesheets -->
+        <record id="view_account_analytic_line_calendar" model="ir.ui.view">
+            <field name="name">account.analytic.line.calendar</field>
+            <field name="model">account.analytic.line</field>
+            <field eval="2" name="priority"/>
+            <field name="arch" type="xml">
+                <calendar date_start="from_date" date_stop="to_date" string="Description" date_delay="unit_amount" mode="month" color="employee_id" event_limit="5" event_open_popup="true">
+                    <field name="employee_id" avatar_field="image_128" filters="1"/>
+                    <field name="date"/>
+                    <field name="project_id"/>
+                    <field name="unit_amount" string="Duration (Hours)"/>
+                    <field name="name"/>
+                    <!-- Displaying new time fields in the calendar -->
+                    <field name="from_time" string="Start Time (hh:mm)"/>
+                    <field name="to_time" string="End Time (hh:mm)"/>
+                </calendar>
+            </field>
+        </record>
+
+        <!-- Form View for Timesheets (including from_time and to_time) -->
+        <record id="sttl_calendar_hr_timesheet_line_form_inherit" model="ir.ui.view">
+            <field name="name">account_analytic_line_form_inherit</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='unit_amount']" position="after">
+                    <!-- Adding time fields to the form view -->
+                    <field name="from_time" string="From Time (hh:mm)"/>
+                    <field name="to_time" string="To Time (hh:mm)"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Tree View for Timesheets (including from_time and to_time) -->
+        <record id="view_account_analytic_line_tree_inherit_dates" model="ir.ui.view">
+            <field name="name">account.analytic.line.tree.inherit.dates</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='task_id']" position="after">
+                    <!-- Displaying the new time fields in the tree view -->
+                    <field name="from_time" string="From Time (hh:mm)"/>
+                    <field name="to_time" string="To Time (hh:mm)"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Search View for Timesheets (adding group_by for from_time and to_time) -->
+        <record id="account_analytic_line_search_inherit_dates" model="ir.ui.view">
+            <field name="name">account.analytic.line.search.inherit.dates</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="hr_timesheet.hr_timesheet_line_search"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='groupby']" position="inside">
+                    <!-- Adding time fields for group_by in the search view -->
+                    <filter string="Start Time" name="from_time" domain="[]"
+                            context="{'group_by': 'from_time'}"/>
+                    <filter string="End Time" name="to_time" domain="[]"
+                            context="{'group_by': 'to_time'}"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Form View for Task (adding from_time and to_time for each timesheet) -->
+        <record id="view_task_inherit_dates_data" model="ir.ui.view">
+            <field name="name">project.task.inherit.dates</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="hr_timesheet.view_task_form2_inherited"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='timesheet_ids']/tree/field[@name='name']" position="after">
+                    <!-- Adding time fields in task form view -->
+                    <field name="from_time" string="From Time (hh:mm)"/>
+                    <field name="to_time" string="To Time (hh:mm)"/>
+                </xpath>
+            </field>
+        </record>
+
+        <!-- Inherit the project.task form view to add an additional tab -->
+        <record id="view_project_task_form_inherit_team_timesheet_tab" model="ir.ui.view">
+            <field name="name">team.project.task.form.team.timesheet.tab</field>
+            <field name="model">project.task</field>
+            <field name="inherit_id" ref="project.view_task_form2"/>
+            <field name="arch" type="xml">
+                <notebook position="inside">
+                    <page string="Team Timesheet">
+                        <!-- Antetul tabului cu datele generale și butonul de generare a pontajelor -->
+                        <div class="d-flex align-items-center mb-2">
+                            <field name="name" string="Description" class="me-2"/>
+                            <label for="date_deadline" string="Date:" class="me-1"/>
+                            <field name="date_deadline" widget="date" class="me-2"/>
+                            <button name="action_generate_timesheets" type="object" string="Generate Timesheets" class="btn-primary"/>
+                        </div>
+                        <!-- Vedere tree pentru activitățile echipei -->
+                        <field name="team_activity_ids">
+                            <tree editable="bottom">
+                                <field name="from_date" string="From Time (hh:mm)"/>
+                                <field name="to_date" string="To Time (hh:mm)"/>
+                                <field name="description" string="Activity Description"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <!-- Tab pentru Materials -->
+                    <page string="Materials">
+                        <field name="material_ids">
+                            <tree editable="bottom">
+                                <field name="product_id" string="Material"/>
+                                <field name="quantity" string="Quantity"/>
+                                <field name="unit_price" string="Unit Price"/>
+                                <field name="subtotal" string="Subtotal" readonly="1"/>
+                            </tree>
+                        </field>
+                    </page>
+
+                    <!-- Tab pentru Transport -->
+                    <page string="Transport">
+                        <field name="transport_ids">
+                            <tree editable="bottom">
+                                <field name="service_id" string="Transport Service"/>
+                                <field name="quantity" string="Distance (Km)"/>
+                                <field name="unit_price" string="Unit Price"/>
+                                <field name="total_cost" string="Total Cost" readonly="1"/>
+                            </tree>
+                        </field>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+    </data>
+</odoo>

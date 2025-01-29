@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="hr_department_cd" model="hr.department">
+            <field name="name">CD</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_comunicare" model="hr.department">
+            <field name="name">Comunicare</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_logistica" model="hr.department">
+            <field name="name">Logistica</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_contabilitate" model="hr.department">
+            <field name="name">Contabilitate</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_vanzari" model="hr.department">
+            <field name="name">Vanzari</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_ru" model="hr.department">
+            <field name="name">RU</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_tehnic" model="hr.department">
+            <field name="name">Tehnic</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_department_invatamant" model="hr.department">
+            <field name="name">Invatamant</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+    </data>
+</odoo>

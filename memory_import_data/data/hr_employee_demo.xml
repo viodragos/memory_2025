@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="contract_type_permanent" model="hr.contract.type">
+            <field name="name">Permanent</field>
+            <field name="sequence">1</field>
+        </record>
+    
+        <record id="work_location_sediu" model="hr.work.location">
+            <field name="name">Sediu</field>
+            <field name="location_type">office</field>
+            <field name="address_id" ref="base.main_partner"/>
+        </record>
+    
+        <record id="work_location_service" model="hr.work.location">
+            <field name="name">Service</field>
+            <field name="location_type">office</field>
+            <field name="address_id" ref="base.main_partner"/>
+        </record>
+    
+        <record id="employee_category_angajat" model="hr.employee.category">
+            <field name="name">Angajat</field>
+            <field name="color" eval="1"/>
+        </record>
+    
+        <record id="work_contact_eva_szabo" model="res.partner">
+            <field name="name">Szabo Eva</field>
+            <field name="email">eva.szabo@memory.ro</field>
+        </record>
+
+        <record id="employee_eva_szabo" model="hr.employee">
+            <field name="name">Szabo Eva</field>
+            <field name="work_email">eva.szabo@memory.ro</field>
+            <field name="department_id" ref="hr_department_cd"/>
+            <field name="job_id" ref="hr_job_ceo"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_eva_szabo"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_mariana_sabou" model="res.partner">
+            <field name="name">Sabou Mariana</field>
+            <field name="email">mariana.sabou@memory.ro</field>
+        </record>
+
+        <record id="employee_mariana_sabou" model="hr.employee">
+            <field name="name">Sabou Mariana</field>
+            <field name="work_email">mariana.sabou@memory.ro</field>
+            <field name="department_id" ref="hr_department_comunicare"/>
+            <field name="job_id" ref="hr_job_secretar"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_mariana_sabou"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_loredana_grecu" model="res.partner">
+            <field name="name">Grecu Loredana</field>
+            <field name="email">loredana.grecu@memory.ro</field>
+        </record>
+
+        <record id="employee_loredana_grecu" model="hr.employee">
+            <field name="name">Grecu Loredana</field>
+            <field name="work_email">loredana.grecu@memory.ro</field>
+            <field name="department_id" ref="hr_department_logistica"/>
+            <field name="job_id" ref="hr_job_dispecer_gestionar"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_loredana_grecu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_mihaela_grosu" model="res.partner">
+            <field name="name">Grosu Mihaela</field>
+            <field name="email">mihaela.grosu@memory.ro</field>
+        </record>
+
+        <record id="employee_mihaela_grosu" model="hr.employee">
+            <field name="name">Grosu Mihaela</field>
+            <field name="work_email">mihaela.grosu@memory.ro</field>
+            <field name="department_id" ref="hr_department_contabilitate"/>
+            <field name="job_id" ref="hr_job_economist"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_mihaela_grosu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_anca_brejea" model="res.partner">
+            <field name="name">Brejea Anca</field>
+            <field name="email">anca.brejea@memory.ro</field>
+        </record>
+
+        <record id="employee_anca_brejea" model="hr.employee">
+            <field name="name">Brejea Anca</field>
+            <field name="work_email">anca.brejea@memory.ro</field>
+            <field name="department_id" ref="hr_department_vanzari"/>
+            <field name="job_id" ref="hr_job_economist"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_anca_brejea"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_alin_sandu" model="res.partner">
+            <field name="name">Sandu Alin</field>
+            <field name="email">alin.sandu@memory.ro</field>
+        </record>
+
+        <record id="employee_alin_sandu" model="hr.employee">
+            <field name="name">Sandu Alin</field>
+            <field name="work_email">alin.sandu@memory.ro</field>
+            <field name="department_id" ref="hr_department_vanzari"/>
+            <field name="job_id" ref="hr_job_director_vanzari"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_alin_sandu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_ioana_munteanu" model="res.partner">
+            <field name="name">Munteanu Ioana</field>
+            <field name="email">ioana.munteanu@memory.ro</field>
+        </record>
+
+        <record id="employee_ioana_munteanu" model="hr.employee">
+            <field name="name">Munteanu Ioana</field>
+            <field name="work_email">ioana.munteanu@memory.ro</field>
+            <field name="department_id" ref="hr_department_logistica"/>
+            <field name="job_id" ref="hr_job_economist"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_ioana_munteanu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_bianca_suta" model="res.partner">
+            <field name="name">Suta Bianca</field>
+            <field name="email">bianca.suta@memory.ro</field>
+        </record>
+
+        <record id="employee_bianca_suta" model="hr.employee">
+            <field name="name">Suta Bianca</field>
+            <field name="work_email">bianca.suta@memory.ro</field>
+            <field name="department_id" ref="hr_department_ru"/>
+            <field name="job_id" ref="hr_job_director_ru"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_bianca_suta"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_ema_popa" model="res.partner">
+            <field name="name">Marschall Ema - Zita</field>
+            <field name="email">ema.popa@memory.ro</field>
+        </record>
+
+        <record id="employee_ema_popa" model="hr.employee">
+            <field name="name">Marschall Ema - Zita</field>
+            <field name="work_email">ema.popa@memory.ro</field>
+            <field name="department_id" ref="hr_department_contabilitate"/>
+            <field name="job_id" ref="hr_job_contabil"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_ema_popa"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_elisabeta_bobocel" model="res.partner">
+            <field name="name">Bobocel Elisabeta</field>
+            <field name="email">elisabeta.bobocel@memory.ro</field>
+        </record>
+
+        <record id="employee_elisabeta_bobocel" model="hr.employee">
+            <field name="name">Bobocel Elisabeta</field>
+            <field name="work_email">elisabeta.bobocel@memory.ro</field>
+            <field name="department_id" ref="hr_department_contabilitate"/>
+            <field name="job_id" ref="hr_job_contabil_sef"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_sediu"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_elisabeta_bobocel"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_albert_kacso" model="res.partner">
+            <field name="name">Kacso Albert</field>
+            <field name="email">albert.kacso@memory.ro</field>
+        </record>
+
+        <record id="employee_albert_kacso" model="hr.employee">
+            <field name="name">Kacso Albert</field>
+            <field name="work_email">albert.kacso@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_tehnician"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_albert_kacso"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_iulian_hritcu" model="res.partner">
+            <field name="name">Hritcu Iulian</field>
+            <field name="email">iulian.hritcu@memory.ro</field>
+        </record>
+
+        <record id="employee_iulian_hritcu" model="hr.employee">
+            <field name="name">Hritcu Iulian</field>
+            <field name="work_email">iulian.hritcu@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_director_tehnic"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_iulian_hritcu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_toni_efrim" model="res.partner">
+            <field name="name">Efrim Toni</field>
+            <field name="email">toni.efrim@memory.ro</field>
+        </record>
+
+        <record id="employee_toni_efrim" model="hr.employee">
+            <field name="name">Efrim Toni</field>
+            <field name="work_email">toni.efrim@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_tehnician"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_toni_efrim"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_laszlo_kiss" model="res.partner">
+            <field name="name">Kiss Laszlo</field>
+            <field name="email">laszlo.kiss@memory.ro</field>
+        </record>
+
+        <record id="employee_laszlo_kiss" model="hr.employee">
+            <field name="name">Kiss Laszlo</field>
+            <field name="work_email">laszlo.kiss@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_inginer"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_laszlo_kiss"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_calin_axinte" model="res.partner">
+            <field name="name">Axinte Calin</field>
+            <field name="email">calin.axinte@memory.ro</field>
+        </record>
+
+        <record id="employee_calin_axinte" model="hr.employee">
+            <field name="name">Axinte Calin</field>
+            <field name="work_email">calin.axinte@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_tehnician"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_calin_axinte"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_lia_popa" model="res.partner">
+            <field name="name">Popa Lia</field>
+            <field name="email">lia.popa@memory.ro</field>
+        </record>
+
+        <record id="employee_lia_popa" model="hr.employee">
+            <field name="name">Popa Lia</field>
+            <field name="work_email">lia.popa@memory.ro</field>
+            <field name="department_id" ref="hr_department_tehnic"/>
+            <field name="job_id" ref="hr_job_administrator_retea"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_lia_popa"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+        <record id="work_contact_aurel_patrascu" model="res.partner">
+            <field name="name">Patrascu Aurel</field>
+            <field name="email">aurel.patrascu@memory.ro</field>
+        </record>
+
+        <record id="employee_aurel_patrascu" model="hr.employee">
+            <field name="name">Patrascu Aurel</field>
+            <field name="work_email">aurel.patrascu@memory.ro</field>
+            <field name="department_id" ref="hr_department_invatamant"/>
+            <field name="job_id" ref="hr_job_instructor"/>
+            <field name="category_ids" eval="[Command.set([ref('employee_category_angajat')])]"/>
+            <field name="work_location_id" ref="work_location_service"/>
+            <!--field name="contract_type_id" ref="contract_type_permanent"/-->
+            <field name="work_contact_id" ref="work_contact_aurel_patrascu"/>
+            <field name="create_date">2010-01-01 00:00:00</field>
+        </record>
+    
+    </data>
+</odoo>

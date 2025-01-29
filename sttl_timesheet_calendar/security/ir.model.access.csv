@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_team_task_activity,access.team.task.activity,model_team_task_activity,,1,1,1,1
+access_task_material_user,access.task.material.user,model_task_material,base.group_user,1,1,1,1
+access_task_transport_user,access.task.transport.user,model_task_transport,base.group_user,1,1,1,1

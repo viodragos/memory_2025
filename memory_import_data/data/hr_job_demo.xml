@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+
+        <record id="hr_job_ceo" model="hr.job">
+            <field name="name">CEO</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_secretar" model="hr.job">
+            <field name="name">Secretar</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_dispecer_gestionar" model="hr.job">
+            <field name="name">Dispecer gestionar</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_economist" model="hr.job">
+            <field name="name">Economist</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_director_vanzari" model="hr.job">
+            <field name="name">Director vanzari</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_director_ru" model="hr.job">
+            <field name="name">Director RU</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_contabil" model="hr.job">
+            <field name="name">Contabil</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_contabil_sef" model="hr.job">
+            <field name="name">Contabil sef</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_tehnician" model="hr.job">
+            <field name="name">Tehnician</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_director_tehnic" model="hr.job">
+            <field name="name">Director tehnic</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_inginer" model="hr.job">
+            <field name="name">Inginer</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_administrator_retea" model="hr.job">
+            <field name="name">Administrator retea</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+
+        <record id="hr_job_instructor" model="hr.job">
+            <field name="name">Instructor</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    
+    </data>
+</odoo>
