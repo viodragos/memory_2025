@@ -13,9 +13,8 @@ class TeamProjectTask(models.Model):
 
     def action_generate_timesheets(self):
         """
-        Generate timesheets for tasks, logging all events and errors for debugging.
+        Generăm fișe de pontaj pentru fiecare angajat, alocând SO-Line corect.
         """
-    
         success_count = 0
         error_count = 0
         error_log = []
@@ -26,7 +25,7 @@ class TeamProjectTask(models.Model):
             try:
                 logging.info(f"Processing task: {task.name} (ID: {task.id})")
 
-                # Șterge atașările anterioare
+                # Ștergem fișele anterioare ale task-ului
                 existing_lines = self.env['account.analytic.line'].search([('task_id', '=', task.id)])
                 if existing_lines:
                     logging.info(f"Deleting existing timesheets for task '{task.name}' (ID: {task.id}).")
@@ -49,7 +48,7 @@ class TeamProjectTask(models.Model):
                     try:
                         logging.info(f"Processing activity: {activity.description} (from_date: {activity.from_date}, to_date: {activity.to_date})")
 
-                        # Validate and parse time fields
+                        # Validare ore
                         from_hours, from_minutes = map(int, activity.from_date.split(':'))
                         to_hours, to_minutes = map(int, activity.to_date.split(':'))
 
@@ -57,19 +56,23 @@ class TeamProjectTask(models.Model):
                                 0 <= to_hours < 24 and 0 <= to_minutes < 60):
                             raise ValueError("Invalid time format")
 
-                        # Calculate datetime objects
+                        # Calculăm durata activității
                         date_base = datetime.combine(task.date_deadline, datetime.min.time())
                         from_datetime = date_base.replace(hour=from_hours, minute=from_minutes)
                         to_datetime = date_base.replace(hour=to_hours, minute=to_minutes)
-
-                        # Check duration validity
                         calculated_duration = (to_datetime - from_datetime).total_seconds() / 3600
+
                         if calculated_duration <= 0:
                             raise ValueError(f"Invalid duration: {calculated_duration} hours. 'From' time must be before 'To' time.")
 
-                        # Iterate over all employees and create timesheets
                         for employee in employees:
-                            logging.info(f"Creating timesheet for employee '{employee.name}' in task '{task.name}' (Activity: '{activity.description}').")
+                            # 🔄 Găsim SO-Product asociat angajatului folosind `sale_line_employee_ids`
+                            sale_order_line = self.env['sale.order.line'].search([
+                                ('id', 'in', task.project_id.sale_line_employee_ids.mapped('sale_line_id').ids),
+                                ('employee_id', '=', employee.id)
+                            ], limit=1)
+
+                            # Creăm linia de Timesheet
                             self.env['account.analytic.line'].create({
                                 'name': activity.description,
                                 'employee_id': employee.id,
@@ -81,6 +84,7 @@ class TeamProjectTask(models.Model):
                                 'unit_amount': calculated_duration,
                                 'project_id': task.project_id.id,
                                 'task_id': task.id,
+                                'so_line': sale_order_line.id if sale_order_line else False,  # 🔥 Asignăm SO-Line
                             })
                             success_count += 1
 
@@ -107,7 +111,7 @@ class TeamProjectTask(models.Model):
             for error in error_log:
                 logging.error(error)
 
-        # Notify user about the results
+        # Notificare UI
         return {
             'type': 'ir.actions.client',
             'tag': 'display_notification',
@@ -115,6 +119,6 @@ class TeamProjectTask(models.Model):
                 'title': 'Timesheet Generation Complete',
                 'message': f"Successfully processed {success_count} entries. Encountered {error_count} errors.",
                 'type': 'warning' if error_log else 'success',
-                'sticky': True,  # Notification stays visible
+                'sticky': True,  # Notificarea rămâne vizibilă
             },
         }

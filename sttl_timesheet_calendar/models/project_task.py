@@ -5,6 +5,41 @@ import logging
 class ProjectTask(models.Model):
     _inherit = 'project.task'
 
+    date_planned = fields.Date(string="Planned Date", tracking=True)
+    work_point_id = fields.Many2one(
+        'res.partner',
+        string='Work Point',
+        domain="[('parent_id', '=', project_id.partner_id.id), ('type', '=', 'other')]",
+        help='Work point or intervention address'
+    )
+    contact_person_id = fields.Many2one(
+        'res.partner',
+        string='Contact Person',
+        domain="[('parent_id', '=', project_id.partner_id.id), ('type', '=', 'contact')]",
+        help='Contact person for the task'
+    )
+
+    @api.model
+    def create(self, vals):
+        """Completează automat work_point_id și contact_person_id dacă nu sunt setate"""
+        project = self.env['project.project'].browse(vals.get('project_id'))
+        if project:
+            vals.setdefault('work_point_id', project.work_point_id.id)
+            vals.setdefault('contact_person_id', project.contact_person_id.id)
+
+        return super(ProjectTask, self).create(vals)
+
+    def write(self, vals):
+        """Actualizează work_point_id și contact_person_id dacă se schimbă proiectul"""
+        res = super(ProjectTask, self).write(vals)
+        
+        for task in self:
+            if 'project_id' in vals and task.project_id:
+                task.work_point_id = task.project_id.work_point_id.id
+                task.contact_person_id = task.project_id.contact_person_id.id
+
+        return res
+
     def write(self, vals):
         res = super(ProjectTask, self).write(vals)
 

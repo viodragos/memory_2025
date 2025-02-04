@@ -1,0 +1,15 @@
+# Ignorăm cache-ul Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignorăm setările locale și fișierele de editor
+.vscode/
+.idea/
+*.swp
+
+# Ignorăm fișierele generate de Odoo
+*.egg-info/
+*.iml

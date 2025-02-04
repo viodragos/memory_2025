@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_task_form_inherited_memory" model="ir.ui.view">
+        <field name="name">project.task.form.inherit.memory</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[field[@name='project_id']]" position="after">
+                <group string="Intervention Details">
+                    <field name="date_planned"/>
+                    <field name="work_point_id"/>
+                    <field name="contact_person_id"/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_task_tree_inherited_memory" model="ir.ui.view">
+        <field name="name">project.task.tree.inherit.memory</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.open_view_all_tasks_list_view"/>  <!-- ID-ul corect -->
+        <field name="arch" type="xml">
+            <xpath expr="//tree/field[1]" position="before">  <!-- Pune data planificată înaintea primului câmp -->
+                <field name="date_planned" optional="show"/>
+            </xpath>
+            <xpath expr="//tree/field[@name='partner_id']" position="after">  <!-- Pune data planificată înaintea primului câmp -->
+                <field name="work_point_id" optional="show"/>
+                <field name="contact_person_id" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_task_search_inherited_memory" model="ir.ui.view">
+        <field name="name">project.task.search.inherit.memory</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_search_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <field name="date_planned"/>
+                <field name="work_point_id"/>
+                <field name="contact_person_id"/>
+
+                <!-- Adăugăm filtre pentru sortare -->
+                <filter string="Planned Date" name="filter_date_planned" domain="[('date_planned', '!=', False)]"/>
+                <filter string="Work Point" name="filter_work_point" domain="[('work_point_id', '!=', False)]"/>
+                <filter string="Contact Person" name="filter_contact_person" domain="[('contact_person_id', '!=', False)]"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

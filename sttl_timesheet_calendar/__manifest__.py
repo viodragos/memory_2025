@@ -20,6 +20,7 @@
         'views/hr_timesheet_view.xml',
         'views/product_transport.xml',
         'views/project_project.xml',
+        'views/project_task.xml',
     ],
     'installable': True,
     'application': True,
