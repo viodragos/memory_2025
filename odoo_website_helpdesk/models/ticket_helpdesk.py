@@ -191,11 +191,23 @@ class TicketHelpDesk(models.Model):
         help='Work point or intervention address'
     )
 
+    work_point_name_short = fields.Char(
+        string='Punct de lucru',
+        related='work_point_id.name',
+        store=False
+    )
+
     contact_person_id = fields.Many2one(
         'res.partner',
         string='Contact Person',
         domain="[('parent_id', '=', customer_id), ('type', '=', 'contact')]",
         help='Contact person for the ticket'
+    )
+
+    contact_person_name_short = fields.Char(
+    string='Persoana de contact',
+    related='contact_person_id.name',
+    store=False
     )
     # restul ramane la fel
     category_id = fields.Many2one('helpdesk.category', string='Category',
