@@ -5,6 +5,12 @@
         <field name="model">project.task</field>
         <field name="inherit_id" ref="project.view_task_form2"/>
         <field name="arch" type="xml">
+            <xpath expr="//group[field[@name='partner_id']]" position="after">
+                <group string="Numar intern">
+                    <field name="tip_document"/>
+                    <field name="numar_intern"/>
+                </group>
+            </xpath>
             <xpath expr="//group[field[@name='project_id']]" position="after">
                 <group string="Intervention Details">
                     <field name="date_planned"/>
@@ -21,6 +27,8 @@
         <field name="inherit_id" ref="project.open_view_all_tasks_list_view"/>  <!-- ID-ul corect -->
         <field name="arch" type="xml">
             <xpath expr="//tree/field[1]" position="before">  <!-- Pune data planificată înaintea primului câmp -->
+                <field name="tip_document"/>
+                <field name="numar_intern"/>
                 <field name="date_planned" optional="show"/>
             </xpath>
             <xpath expr="//tree/field[@name='partner_id']" position="after">  <!-- Pune data planificată înaintea primului câmp -->
@@ -36,11 +44,15 @@
         <field name="inherit_id" ref="project.view_task_search_form"/>
         <field name="arch" type="xml">
             <xpath expr="//search" position="inside">
+                <field name="tip_document"/>
+                <field name="numar_intern"/>
                 <field name="date_planned"/>
                 <field name="work_point_id"/>
                 <field name="contact_person_id"/>
 
                 <!-- Adăugăm filtre pentru sortare -->
+                <filter string="Tip" name="filter_tip_document" domain="[('tip_document', '!=', False)]"/>
+                <filter string="Numar" name="filter_numar_intern" domain="[('numar_intern', '!=', False)]"/>
                 <filter string="Planned Date" name="filter_date_planned" domain="[('date_planned', '!=', False)]"/>
                 <filter string="Work Point" name="filter_work_point" domain="[('work_point_id', '!=', False)]"/>
                 <filter string="Contact Person" name="filter_contact_person" domain="[('contact_person_id', '!=', False)]"/>

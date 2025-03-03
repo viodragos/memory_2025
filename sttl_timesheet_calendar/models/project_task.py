@@ -21,6 +21,8 @@ class ProjectTask(models.Model):
     # campuri de afisare 
     display_work_point = fields.Char(string="Work Point", compute="_compute_display_work_point", store=True)
     display_contact_person = fields.Char(string="Contact Person", compute="_compute_display_contact_person", store=True)
+    tip_document = fields.Selection([('STL', 'STL'), ('FIL', 'FIL')],string='Tip')
+    numar_intern = fields.Char(string='Numar')
 
     @api.depends('work_point_id')
     def _compute_display_work_point(self):

@@ -30,3 +30,4 @@ class ProjectTask(models.Model):
                                 help='ID of the ticket .')
     ticket_billed = fields.Boolean('Billed', default=False,
                                    help='Billed Tickets')
+    
