@@ -9,15 +9,28 @@ class ProjectTask(models.Model):
     work_point_id = fields.Many2one(
         'res.partner',
         string='Work Point',
-        domain="[('parent_id', '=', project_id.partner_id.id), ('type', '=', 'other')]",
+        domain="[('parent_id', '=', partner_id), ('type', '=', 'other')]",
         help='Work point or intervention address'
     )
     contact_person_id = fields.Many2one(
         'res.partner',
         string='Contact Person',
-        domain="[('parent_id', '=', project_id.partner_id.id), ('type', '=', 'contact')]",
+        domain="[('parent_id', '=', partner_id), ('type', '=', 'contact')]",
         help='Contact person for the task'
     )
+    # campuri de afisare 
+    display_work_point = fields.Char(string="Work Point", compute="_compute_display_work_point", store=True)
+    display_contact_person = fields.Char(string="Contact Person", compute="_compute_display_contact_person", store=True)
+
+    @api.depends('work_point_id')
+    def _compute_display_work_point(self):
+        for task in self:
+            task.display_work_point = subsiruri[1] if len(subsiruri := task.work_point_id.split(',')) > 1 else task.work_point_id
+
+    @api.depends('contact_person_id')
+    def _compute_display_contact_person(self):
+        for task in self:
+            task.display_contact_person = task.contact_person_id[0][1] if task.contact_person_id else ''
 
     @api.model
     def create(self, vals):
