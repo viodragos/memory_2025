@@ -1,0 +1,7 @@
+.o_form_view {
+    background-color: #e0f0ff !important; /* Albastru deschis */
+}
+
+.navbar-brand img {
+    content: url('/memory_look/static/src/img/logo.png');
+}

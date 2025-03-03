@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets_backend" name="Memory Look Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/memory_look/static/src/css/memory_look.css"/>
+        </xpath>
+    </template>
+</odoo>
