@@ -1,0 +1,6 @@
+<odoo>
+  <record id="action_tichete_dashboard" model="ir.actions.client">
+    <field name="name">Dashboard Tichete</field>
+    <field name="tag">tichete_dashboard_action</field>
+  </record>
+</odoo>

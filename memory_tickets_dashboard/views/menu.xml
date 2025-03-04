@@ -1,0 +1,15 @@
+<odoo>
+  <menuitem 
+    id="menu_tichete_main"
+    name="Sinteza"
+    sequence="10"
+    web_icon="memory_tickets_dashboard,static/description/icon.png"
+  />
+  <menuitem 
+    id="menu_tichete_dashboard"
+    name="Dashboard"
+    parent="menu_tichete_main"
+    action="action_tichete_dashboard"
+    sequence="1"
+  />
+</odoo>

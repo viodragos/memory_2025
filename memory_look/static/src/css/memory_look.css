@@ -1,4 +1,91 @@
-.o_main_navbar {
-    background-color: #003366 !important; /* Header navbar */
+/* === HEADER PERSONALIZAT === */
+/* Banda cu logo-ul deasupra aplicației */
+#custom-header-logo {
+    text-align: center;
+    background-color: #003366; /* Albastru Memory */
 }
 
+/* === NAVBAR (bara de sus) === */
+.o_main_navbar {
+    background-color: #003366 !important; /* Fundal navbar */
+    border-bottom: none !important;
+    color: #ffffff !important; /* Text alb */
+}
+
+/* Linkuri și texte din navbar */
+.o_main_navbar a, 
+.o_main_navbar span {
+    color: #ffffff !important;
+}
+
+/* Meniurile din navbar (ne-selectate) */
+.o_main_navbar .o_menu_sections > li > a {
+    background-color: #003366 !important;
+    color: #ffffff !important;
+}
+
+/* Hover și activ pe meniurile din navbar */
+.o_main_navbar .o_menu_sections > li > a:hover,
+.o_main_navbar .o_menu_sections > li > a:focus,
+.o_main_navbar .o_menu_sections > li > a:active {
+    background-color: #002244 !important; /* Albastru mai închis */
+    color: #ffffff !important;
+}
+
+/* Dropdown-uri (meniuri derulante din navbar și systray) */
+.o_menu_sections .dropdown-menu,
+.o_menu_systray .dropdown-menu {
+    background-color: #003366 !important;
+    color: #ffffff !important;
+}
+
+.o_menu_sections .dropdown-menu a,
+.o_menu_systray .dropdown-menu a {
+    color: #ffffff !important;
+}
+
+.o_menu_sections .dropdown-menu a:hover,
+.o_menu_systray .dropdown-menu a:hover {
+    background-color: #002244 !important;
+    color: #ffffff !important;
+}
+
+/* === BUTOANE GENERALE === */
+.btn-primary,
+.btn-secondary,
+.btn-outline-primary,
+.o_form_button_save,
+.o_form_button_cancel,
+.o_form_button_edit,
+.o_main_navbar .btn {
+    background-color: #003366 !important;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-outline-primary:hover,
+.o_form_button_save:hover,
+.o_form_button_cancel:hover,
+.o_form_button_edit:hover,
+.o_main_navbar .btn:hover {
+    background-color: #002244 !important;
+    color: #ffffff !important;
+}
+
+/* === MENIU LATERAL (APP BAR) === */
+.o_appbar {
+    background-color: #003366 !important; /* Fundal lateral */
+    border-right: none !important;
+}
+
+.o_appbar .o_app {
+    color: #ffffff !important; /* Iconițe aplicații */
+}
+
+.o_appbar .o_app:hover,
+.o_appbar .o_app.o_active {
+    background-color: #002244 !important; /* Hover și activ */
+    color: #ffffff !important;
+}

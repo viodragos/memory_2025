@@ -1,0 +1,11 @@
+<t t-name="memory_tickets_dashboard.TicheteDashboard">
+  <div class="o_container">
+    <h1>Dashboard Tichete</h1>
+    <div class="o_row">
+      <div class="o_col">Total: <t t-esc="state.total"/></div>
+      <div class="o_col">Deschise: <t t-esc="state.deschise"/></div>
+      <div class="o_col">În curs: <t t-esc="state.in_curs"/></div>
+      <div class="o_col">Finalizate: <t t-esc="state.finalizate"/></div>
+    </div>
+  </div>
+</t>

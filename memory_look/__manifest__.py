@@ -7,7 +7,7 @@
     'data': ['views/header_logo.xml',],
     'assets': {
     'web.assets_backend': [
-        '/memory_look/static/src/css/memory_look.css',
+       '/memory_look/static/src/css/memory_look.css',
     ],},
     'installable': True,
     'application': True,
