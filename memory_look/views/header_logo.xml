@@ -1,0 +1,9 @@
+<odoo>
+  <template id="memory_look_header_logo" inherit_id="web.layout">
+    <xpath expr="//body" position="before">
+      <div id="custom-header-logo" style="text-align: center; padding: 5px 0; background-color: #003366;">
+        <img src="/memory_look/static/src/img/logo.png" height="40" alt="Memory Logo"/>
+      </div>
+    </xpath>
+  </template>
+</odoo>
