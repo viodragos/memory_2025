@@ -1,14 +1,17 @@
 <odoo>
+  <!-- Meniu principal redenumit -->
   <menuitem 
-    id="menu_tichete_main"
+    id="menu_sinteza_main"
     name="Sinteza"
     sequence="10"
     web_icon="memory_tickets_dashboard,static/description/icon.png"
   />
+
+  <!-- Dashboard submeniu -->
   <menuitem 
-    id="menu_tichete_dashboard"
+    id="menu_sinteza_dashboard"
     name="Dashboard"
-    parent="menu_tichete_main"
+    parent="menu_sinteza_main"
     action="action_tichete_dashboard"
     sequence="1"
   />

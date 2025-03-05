@@ -35,7 +35,7 @@ class TicketHelpDesk(models.Model):
                         venit_manopera += produs.list_price * ore
 
                 # Materiale din fișa de sarcină
-                for material_line in task.material_line_ids:
+                for material_line in task.material_ids:
                     total_materiale_fisa += material_line.product_uom_qty * material_line.product_id.standard_price
 
                 # Materiale din pick-uri
