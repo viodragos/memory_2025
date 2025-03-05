@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+  <t t-name="memory_tickets_dashboard.TicheteDashboard">
+    <div class="o_container">
+      <h1>Deviz lucrări - Sinteză tichete</h1>
+
+      <!-- Carduri rapide cu totaluri -->
+      <div class="o_row">
+        <div class="o_col o_col_3">
+          <div class="o_card">
+            <strong>Ore lucrate:</strong>
+            <t t-esc="state.total_ore"/> h
+          </div>
+        </div>
+        <div class="o_col o_col_3">
+          <div class="o_card">
+            <strong>Cost manoperă:</strong>
+            <t t-esc="state.cost_manopera"/> lei
+          </div>
+        </div>
+        <div class="o_col o_col_3">
+          <div class="o_card">
+            <strong>Venit manoperă:</strong>
+            <t t-esc="state.venit_manopera"/> lei
+          </div>
+        </div>
+        <div class="o_col o_col_3">
+          <div class="o_card">
+            <strong>Venit total facturi:</strong>
+            <t t-esc="state.venit_total_facturi"/> lei
+          </div>
+        </div>
+      </div>
+
+      <!-- Materiale -->
+      <h2>Materiale</h2>
+      <div class="o_row">
+        <div class="o_col o_col_4">
+          <div class="o_card">
+            <strong>Materiale fișă:</strong>
+            <t t-esc="state.total_materiale_fisa"/> lei
+          </div>
+        </div>
+        <div class="o_col o_col_4">
+          <div class="o_card">
+            <strong>Materiale pick-uri:</strong>
+            <t t-esc="state.total_materiale_pick"/> lei
+          </div>
+        </div>
+        <div class="o_col o_col_4">
+          <div class="o_card">
+            <strong>Diferență materiale:</strong>
+            <t t-esc="state.discrepanta_materiale"/> lei
+          </div>
+        </div>
+      </div>
+
+      <!-- Transport -->
+      <h2>Transport</h2>
+      <div class="o_row">
+        <div class="o_col o_col_6">
+          <div class="o_card">
+            <strong>Total km:</strong>
+            <t t-esc="state.total_km"/> km
+          </div>
+        </div>
+        <div class="o_col o_col_6">
+          <div class="o_card">
+            <strong>Cost transport:</strong>
+            <t t-esc="state.cost_transport"/> lei
+          </div>
+        </div>
+      </div>
+
+      <!-- Profit -->
+      <h2>Profit estimat</h2>
+      <div class="o_row">
+        <div class="o_col o_col_12">
+          <div class="o_card">
+            <strong>Profit total:</strong>
+            <t t-esc="state.profit_total"/> lei
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Pondere costuri</h2>
+    <div class="o_row">
+        <div class="o_col o_col_12">
+            <div id="cost_pie_chart"></div>
+        </div>
+    </div>
+  </t>
+</templates>
