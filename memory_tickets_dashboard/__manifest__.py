@@ -9,6 +9,7 @@
         'web.assets_backend': [
             '/memory_tickets_dashboard/static/src/js/dashboard.js',
             '/memory_tickets_dashboard/static/src/xml/dashboard.xml',
+            '/memory_tickets_dashboard/static/src/css/dashboard.css',
             'https://cdn.jsdelivr.net/npm/chart.js',  # Adăugăm Chart.js din CDN
         ],
     },
