@@ -25,7 +25,7 @@
 
     ],
     'installable': True,
-    'auto_install': False,
+    'application': True,
     'images':['static/description/Employee-Timesheet-Excel-and-PDF-Report-Banner.gif'],
     'live_test_url':'https://youtu.be/XbbMY3VBlng',
 }
