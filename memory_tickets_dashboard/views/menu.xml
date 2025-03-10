@@ -2,7 +2,7 @@
   <!-- Meniu principal redenumit -->
   <menuitem 
     id="menu_sinteza_main"
-    name="Sinteza"
+    name="Raport tichete"
     sequence="10"
     web_icon="memory_tickets_dashboard,static/description/icon.png"
   />
@@ -10,7 +10,7 @@
   <!-- Dashboard submeniu -->
   <menuitem 
     id="menu_sinteza_dashboard"
-    name="Dashboard"
+    name="Date tichete"
     parent="menu_sinteza_main"
     action="action_tichete_dashboard"
     sequence="1"

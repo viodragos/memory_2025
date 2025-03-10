@@ -1,94 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<templates xml:space="preserve">
-  <t t-name="memory_tickets_dashboard.TicheteDashboard">
-    <div class="o_container">
-      <h1>Deviz lucrări - Sinteză tichete</h1>
+<odoo>
+    <!-- Vedere Tree -->
+    <record id="view_ticket_report_devise_tree" model="ir.ui.view">
+        <field name="name">ticket.report.devise.tree</field>
+        <field name="model">ticket.report.devise</field>
+        <field name="arch" type="xml">
+            <tree string="Raport Tichete">
+                <field name="ticket_id"/>
+                <field name="ticket_name"/>
+                <field name="ticket_subject"/>
+                <field name="customer_name"/>
+                <field name="project_name"/>
+                <field name="stage"/>
+                <field name="task_name"/>
+                <field name="tip_document"/>
+                <field name="numar_intern"/>
+                <field name="date_deadline"/>
+                <field name="ticket_billed"/>
+                <field name="total_hours"/>
+                <field name="cost_manopera"/>
+                <field name="venit_manopera"/>
+                <field name="total_material_qty"/>
+                <field name="cost_material"/>
+                <field name="venit_material"/>
+                <field name="total_transport_qty"/>
+                <field name="cost_transport"/>
+                <field name="venit_transport"/>
+                <field name="so_amount"/>
+                <field name="so_tax"/>
+                <field name="so_total"/>
+                <field name="so_count"/>
+            </tree>
+        </field>
+    </record>
 
-      <!-- Carduri rapide cu totaluri -->
-      <div class="o_row">
-        <div class="o_col o_col_3">
-          <div class="o_card">
-            <strong>Ore lucrate:</strong>
-            <t t-esc="state.total_ore"/> h
-          </div>
-        </div>
-        <div class="o_col o_col_3">
-          <div class="o_card">
-            <strong>Cost manoperă:</strong>
-            <t t-esc="state.cost_manopera"/> lei
-          </div>
-        </div>
-        <div class="o_col o_col_3">
-          <div class="o_card">
-            <strong>Venit manoperă:</strong>
-            <t t-esc="state.venit_manopera"/> lei
-          </div>
-        </div>
-        <div class="o_col o_col_3">
-          <div class="o_card">
-            <strong>Venit total facturi:</strong>
-            <t t-esc="state.venit_total_facturi"/> lei
-          </div>
-        </div>
-      </div>
+    <!-- Vedere Pivot -->
+    <record id="view_ticket_report_devise_pivot" model="ir.ui.view">
+        <field name="name">ticket.report.devise.pivot</field>
+        <field name="model">ticket.report.devise</field>
+        <field name="arch" type="xml">
+            <pivot string="Pivot Raport Tichete">
+                <field name="ticket_id"/>
+                <field name="customer_name"/>
+                <field name="project_name"/>
+                <field name="stage"/>
+                <field name="total_hours" type="measure"/>
+                <field name="cost_manopera" type="measure"/>
+                <field name="venit_manopera" type="measure"/>
+                <field name="cost_material" type="measure"/>
+                <field name="venit_material" type="measure"/>
+                <field name="cost_transport" type="measure"/>
+                <field name="venit_transport" type="measure"/>
+                <field name="so_total" type="measure"/>
+            </pivot>
+        </field>
+    </record>
 
-      <!-- Materiale -->
-      <h2>Materiale</h2>
-      <div class="o_row">
-        <div class="o_col o_col_4">
-          <div class="o_card">
-            <strong>Materiale fișă:</strong>
-            <t t-esc="state.total_materiale_fisa"/> lei
-          </div>
-        </div>
-        <div class="o_col o_col_4">
-          <div class="o_card">
-            <strong>Materiale pick-uri:</strong>
-            <t t-esc="state.total_materiale_pick"/> lei
-          </div>
-        </div>
-        <div class="o_col o_col_4">
-          <div class="o_card">
-            <strong>Diferență materiale:</strong>
-            <t t-esc="state.discrepanta_materiale"/> lei
-          </div>
-        </div>
-      </div>
+    <!-- Vedere Graph -->
+    <record id="view_ticket_report_devise_graph" model="ir.ui.view">
+        <field name="name">ticket.report.devise.graph</field>
+        <field name="model">ticket.report.devise</field>
+        <field name="arch" type="xml">
+            <graph string="Grafic Raport Tichete" type="bar">
+                <field name="ticket_name" type="row"/>
+                <field name="total_hours" type="measure"/>
+                <field name="so_total" type="measure"/>
+                <field name="cost_material" type="measure"/>
+                <field name="venit_material" type="measure"/>
+            </graph>
+        </field>
+    </record>
 
-      <!-- Transport -->
-      <h2>Transport</h2>
-      <div class="o_row">
-        <div class="o_col o_col_6">
-          <div class="o_card">
-            <strong>Total km:</strong>
-            <t t-esc="state.total_km"/> km
-          </div>
-        </div>
-        <div class="o_col o_col_6">
-          <div class="o_card">
-            <strong>Cost transport:</strong>
-            <t t-esc="state.cost_transport"/> lei
-          </div>
-        </div>
-      </div>
-
-      <!-- Profit -->
-      <h2>Profit estimat</h2>
-      <div class="o_row">
-        <div class="o_col o_col_12">
-          <div class="o_card">
-            <strong>Profit total:</strong>
-            <t t-esc="state.profit_total"/> lei
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <h2>Pondere costuri</h2>
-    <div class="o_row">
-        <div class="o_col o_col_12">
-            <div id="cost_pie_chart"></div>
-        </div>
-    </div>
-  </t>
-</templates>
+    <!-- Vedere Cautare -->
+    <record id="view_tichete_dashboard_search" model="ir.ui.view">
+        <field name="name">ticket.report.devise.search</field>
+        <field name="model">ticket.report.devise</field>
+        <field name="arch" type="xml">
+            <search string="Cautare Tichete">
+                <field name="ticket_id"/>
+                <field name="ticket_name"/>
+                <field name="customer_name"/>
+                <field name="project_name"/>
+                <field name="stage"/>
+            </search>
+        </field>
+    </record>
+</odoo>

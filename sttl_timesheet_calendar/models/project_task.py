@@ -19,30 +19,30 @@ class ProjectTask(models.Model):
         help='Contact person for the task'
     )
     # campuri de afisare 
-    display_work_point = fields.Char(string="Work Point", compute="_compute_display_work_point", store=True)
-    display_contact_person = fields.Char(string="Contact Person", compute="_compute_display_contact_person", store=True)
+    # display_work_point = fields.Char(string="Work Point", compute="_compute_display_work_point", store=True)
+    # display_contact_person = fields.Char(string="Contact Person", compute="_compute_display_contact_person", store=True)
     tip_document = fields.Selection([('STL', 'STL'), ('FIL', 'FIL')],string='Tip')
     numar_intern = fields.Char(string='Numar')
 
-    @api.depends('work_point_id')
-    def _compute_display_work_point(self):
-        for task in self:
-            task.display_work_point = subsiruri[1] if len(subsiruri := task.work_point_id.split(',')) > 1 else task.work_point_id
+    # @api.depends('work_point_id')
+    # def _compute_display_work_point(self):
+    #     for task in self:
+    #         task.display_work_point = subsiruri[1] if len(subsiruri := task.work_point_id.split(',')) > 1 else task.work_point_id
 
-    @api.depends('contact_person_id')
-    def _compute_display_contact_person(self):
-        for task in self:
-            task.display_contact_person = task.contact_person_id[0][1] if task.contact_person_id else ''
+    # @api.depends('contact_person_id')
+    # def _compute_display_contact_person(self):
+    #     for task in self:
+    #         task.display_contact_person = task.contact_person_id[0][1] if task.contact_person_id else ''
 
-    @api.model
-    def create(self, vals):
-        """Completează automat work_point_id și contact_person_id dacă nu sunt setate"""
-        project = self.env['project.project'].browse(vals.get('project_id'))
-        if project:
-            vals.setdefault('work_point_id', project.work_point_id.id)
-            vals.setdefault('contact_person_id', project.contact_person_id.id)
+    # @api.model
+    # def create(self, vals):
+    #     """Completează automat work_point_id și contact_person_id dacă nu sunt setate"""
+    #     project = self.env['project.project'].browse(vals.get('project_id'))
+    #     if project:
+    #         vals.setdefault('work_point_id', project.work_point_id.id)
+    #         vals.setdefault('contact_person_id', project.contact_person_id.id)
 
-        return super(ProjectTask, self).create(vals)
+    #     return super(ProjectTask, self).create(vals)
 
     # def write(self, vals):
     #     """Actualizează work_point_id și contact_person_id dacă se schimbă proiectul"""

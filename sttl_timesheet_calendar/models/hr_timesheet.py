@@ -13,7 +13,7 @@ class AccountAnalyticLine(models.Model):
     from_date = fields.Datetime("From Date")
     to_date = fields.Datetime("To Date")
      # Adăugăm câmpul so_line pentru testare (dacă nu există deja)
-    so_line = fields.Many2one('sale.order.line', string="SO Line", ondelete="set null")
+    #so_line = fields.Many2one('sale.order.line', string="SO Line", ondelete="set null")
     
     def _compute_rounded_duration(self, from_date, to_date):
         """ Calculates the duration between two dates, rounded to two decimal places """

@@ -32,8 +32,8 @@
                 <field name="date_planned" optional="show"/>
             </xpath>
             <xpath expr="//tree/field[@name='partner_id']" position="after">  <!-- Pune data planificată înaintea primului câmp -->
-                <field name="display_work_point" optional="show"/>
-                <field name="display_contact_person" optional="show"/>
+                <field name="work_point_id" optional="show"/>
+                <field name="contact_person_id" optional="show"/>
             </xpath>
         </field>
     </record>
