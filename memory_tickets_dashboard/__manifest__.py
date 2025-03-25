@@ -10,6 +10,7 @@
         'views/actions.xml',
         'views/menu.xml',
         'security/ir.model.access.csv',
+        'views/project_edit_project.xml',
        
     ],
     'installable': True,

@@ -1,3 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_ticket_report_devise_user,access_ticket_report_devise_user,model_ticket_report_devise,base.group_user,1,0,0,0
 access_ticket_report_devise_manager,access_ticket_report_devise_manager,model_ticket_report_devise,base.group_system,1,1,1,1
+access_project_estimate_line_user,access_project_estimate_line_user,model_project_estimate_line,base.group_user,1,1,1,1
+access_deviz_category_user,access_deviz_category_user,model_deviz_category,base.group_user,1,1,1,1
